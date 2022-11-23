@@ -1,3 +1,0 @@
-git add .
-git commit --amend --date=now
-git push 

@@ -1,13 +1,5 @@
 nano prog12.cpp
 make prog12
-nano prog12.cpp
-make prog12
-./prog12
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
 ./prog12
 nano prog12.cpp
 nano prog13.cpp
@@ -998,3 +990,11 @@ cd ../
 mv autopush .autopush
 ls
 ./.autopush
+ls
+ls skel
+rm -r skel
+ls
+./.autopush
+git push
+./.autopush
+nano .autopush

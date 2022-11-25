@@ -1,53 +1,3 @@
-ls
-nano prog9
-nano prog9.cpp
-make prog9
-./prog9
-clear
-nano prog11.cpp
-nano prog7.cpp
-nano prog11.cpp
-make prog11.cpp
-make prog11
-nano prog11.cpp
-make prog11
-./prog11
-clear
-ls
-nano prog12.cpp
-make prog12
-clear
-ls
-clear
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
-nano prog12.cpp
-make prog12
 nano prog12.cpp
 make prog12
 nano prog12.cpp
@@ -998,3 +948,53 @@ git add *
 git commit -m "dsa assignment 1"
 git push git@192.30.255.112:AnimeshTalukdar/btech.git main
 logout
+ls
+cd .ssh
+ls
+git reset --hard
+ls
+cd ../
+ls
+git revert cd02a96fed4cc177ad350a357d586095e3885f7e
+rm -r .ssh
+git revert cd02a96fed4cc177ad350a357d586095e3885f7e
+ls
+git push
+cd .ssh
+ls
+chmod 700 id_rsa
+cd ../
+git push
+ls
+./autopush
+ls
+cd .ssh
+cd .ssh 
+ls
+cd ../
+ls
+./autopush
+git push
+./autopush
+clear
+ls
+ls .ssh
+git ls-tree -r master --name-only | grep id
+git ls-tree -r main --name-only | grep id
+git rm --cached ~/.ssh/*
+ls
+ls .shh
+ls ./.ssh
+nano .gitignore
+ls
+./aytopush
+./autopush
+ls
+cd .ssh
+ls
+mv autopush .autopush
+ls
+cd ../
+mv autopush .autopush
+ls
+./.autopush

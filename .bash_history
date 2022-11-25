@@ -18,3 +18,14 @@ cat .bash_history
 ls -la
 rm .bash_history
 ls -la
+ls
+ls -la
+rm */.DS_Store
+ls
+cd year1cpnm
+ls
+ls -la
+cd ../
+ls
+./.autopush
+ls

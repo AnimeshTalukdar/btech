@@ -1,10 +1,3 @@
-nano prog8.cpp
-make prog8
-./prog8
-nano prog8.cpp
-make prog8
-./prog8
-clear
 ls
 nano prog9
 nano prog9.cpp
@@ -998,3 +991,10 @@ git config user.name "be21149"
 git config user.email "be21149@mail.com"
 git commit -m "dsa assignment 1"
 git push git@192.30.255.112:AnimeshTalukdar/btech.git main
+git commit -m "dsa assignment 1"
+git push git@192.30.255.112:AnimeshTalukdar/btech.git main
+git add .
+git add *
+git commit -m "dsa assignment 1"
+git push git@192.30.255.112:AnimeshTalukdar/btech.git main
+logout

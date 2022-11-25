@@ -1,74 +1,102 @@
-#include<string.h>
 #include<iostream>
 using namespace std;
-int main()
+typedef struct node{
+int data;
+struct node* next = NULL;
+}node;
+typedef struct largenumber{
+struct node* digit = NULL;
+}ln;
+int strlen1(char *s)
 {
-int p=0;
-cout<<"Enter two large numbers: "<<endl;
-char n1[100],n2[100];
-cin>>n1>>n2;
-
-char sum[100];
-int n=strlen(n1);
-int m=strlen(n2);
-cout<<n<<m;
-int l=n>m?m:n;
-int hold=0;
 int i;
-for( i=0;i<l;i++)
-{
-int f1=n1[n-i]-'0';
-int f2=n2[m-i]-'0';
-int s=f1+f2+hold;
-hold=0;
-while(s>9)
-{
-s=s-10;
-hold++;
+for(i=0;s[i]!='\0';i++);
+return i;
 }
-sum[p++]=s;;
-}
-
-if(n>m)
+void insert(ln &n,char *s)
 {
-for( i=m;i<n;i++)
+n.digit = new node;
+node* t = n.digit;
+int i= strlen1(s);
+while(i--)
 {
-int f1=n1[n-i]-'0';
-int s=f1+hold;
-hold=0;
-while(s>9)
-{
-s=s-10;
-hold++;
-}
-sum[p++]=s;
-}}
-
-if(m>n)
-{
-
-for( i=n;i<m;i++)
-{
-int f2=n2[m-i]-'0';
-int s=f2+hold;
-hold=0;
-while(s>9)
-{
-s=s-10;
-hold++;
-}
-sum[p++]=s;
+t->data = s[i]-'0';
+if(i!=0) {
+t->next = new node;
+t = t->next;
 }
 }
-
-while(hold!=0)
+}
+void add(ln&n,ln &m)
 {
-sum[p++]=hold%10;
-hold=hold/10;
+int hold = 0;
+node *oldt1;
+node *t1=n.digit;
+node *t2=m.digit;
+while(t1!=NULL&&t2!=NULL)
+{
+t1->data = t1->data+t2->data+hold;
+hold = t1->data/10;
+t1->data = t1->data%10;
+oldt1= t1;
+t1= t1->next;
+t2=t2->next;
+}
+if(t1==NULL)
+{
+oldt1->next = new node;
+t1= oldt1->next;
+while(t2!=NULL)
+{
+t1->data = hold + t2->data;
+hold=t1->data/10;
+t1->data= t1->data%10;
+
+t2=t2->next;
+if(t2!=NULL)
+{
+t1->next= new node;
+t1=t1->next;
 }
 
-
-cout<<"Sum is "<<sum<<endl;
-
+}
+}
+}
+void printnodes(node * n)
+{
+if(n->next == NULL)
+cout<<n->data;
+else
+{
+printnodes(n->next);
+cout<<n->data;
+}
+}
+void printlongn(ln n)
+{
+printnodes(n.digit);
+}
+int main(){
+ln n,m;
+cout<<"Enter the first long number: "<<endl;
+char s1[100];
+cin>>s1;
+cout<<"Enter the second long number: "<<endl;
+char s2[100];
+cin>>s2;
+insert(n,s1);
+insert(m,s2);
+cout<<"Added long number:"<<endl;
+add(n,m);
+printlongn(n);
+cout<<endl;
 return 0;
 }
+
+
+
+
+
+
+
+

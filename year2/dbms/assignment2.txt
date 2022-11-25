@@ -1,0 +1,4 @@
+select ENAME Name,MGR Manager_ID,TO_CHAR(HIREDATE,'DDSPTH,MONTH,YYYY')  HIREDATE from EMP;
+
+
+

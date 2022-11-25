@@ -44,3 +44,81 @@ clear
 ls
 ls -la
 clear
+ls 
+ls
+clear
+cd year2
+cd ../
+./.autopush
+ls
+clear
+cd year2
+ls
+cd oop
+ls
+ls -la 
+rm prog3 prog4 prog5 prog6 prog7 prog8 prog9
+ls
+clear
+ls -la
+nano prog21.cpp
+rm prog21.cpp
+ls
+clear
+ls 
+nano prog21.cpp
+g++ -o prog21.cpp prog21
+g++ -c -o prog21.cpp prog21
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+~/.autorun
+~/.autopush
+clear
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+nano prog21.cpp
+g++ -c -o prog21 prog21.cpp
+./prog21
+g++  -o prog21 prog21.cpp
+./prog21
+nano prog21.cpp
+g++  -o prog21 prog21.cpp
+./prog21
+nano prog21.cpp
+g++  -o prog21 prog21.cpp
+nano prog21.cpp
+g++  -o prog21 prog21.cpp
+./prog21
+nano prog21.cpp
+g++  -o prog21 prog21.cpp
+./prog21
+nano prog21.cpp
+./prog21
+nano prog21.cpp
+g++  -o prog21 prog21.cpp
+./prog21
+nano prog21.cpp
+g++  -o prog21 prog21.cpp
+./prog21
+exit

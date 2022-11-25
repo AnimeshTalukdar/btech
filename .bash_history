@@ -29,3 +29,18 @@ cd ../
 ls
 ./.autopush
 ls
+clear
+ls
+./.autopush
+ls
+clea
+./.autopush
+clear
+ls
+ls -la
+rm .DS_Store
+ls
+clear
+ls
+ls -la
+clear

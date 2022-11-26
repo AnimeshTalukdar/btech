@@ -122,3 +122,170 @@ nano prog21.cpp
 g++  -o prog21 prog21.cpp
 ./prog21
 exit
+clear
+cd year2
+cd oops
+cd oop
+ls
+nano prog22.cpp
+nano prog21.cpp
+nano prog22.cpp
+nano prog21.cpp
+nano prog22.cpp
+g++ -c -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -c -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -c -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -c -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -c -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -c -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -c -o prog22 prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+clear
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+./prog22
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog22.cpp
+g++ -o prog22 prog22.cpp
+./prog22
+nano prog23.cpp
+cd ../
+./.autopush
+exit 
+nano prog.txt

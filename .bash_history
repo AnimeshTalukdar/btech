@@ -648,3 +648,25 @@ git add .
 git commit -m " not done prog 3 dsa 2"
 git push
 exit
+apt list
+apt-get list
+uname
+uname -r
+cat /etc/os-release
+cat /etc/os-release > file.txt
+ls -l
+dnf list
+yum list
+yum list installed
+clear
+yum list installed
+./.autopush
+ls
+yum list installed
+yum list installed > file2.txt
+./.autopush
+logout
+clear
+logout
+clear
+exit

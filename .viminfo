@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:wq
 :q!
+:wq
 :x
 :h
 :n
@@ -29,18 +29,21 @@
 # Registers:
 
 # File marks:
-'0  3  8  ~/.autopush
-'1  168  0  ~/year2/dsa/assignment1/prog07.cpp
-'2  120  0  ~/year2/dsa/assignment1/prog07.cpp
-'3  64  0  ~/year2/dsa/assignment1/prog07.cpp
-'4  316  0  ~/prog
-'5  15  0  ~/year2/dsa/day1/prog1.c
-'6  118  0  ~/year1cpnm/assignment1/programnull.c
-'7  58  9  ~/year1cpnm/assignment1/program6.c
-'8  107  14  ~/year1cpnm/assignment1/program6.c
-'9  27  0  ~/year1cpnm/assignment1/program6.c
+'0  23  0  ~/year2/oop/prog27.cpp
+'1  48  0  ~/year2/oop/prog27.cpp
+'2  3  8  ~/.autopush
+'3  168  0  ~/year2/dsa/assignment1/prog07.cpp
+'4  120  0  ~/year2/dsa/assignment1/prog07.cpp
+'5  64  0  ~/year2/dsa/assignment1/prog07.cpp
+'6  316  0  ~/prog
+'7  15  0  ~/year2/dsa/day1/prog1.c
+'8  118  0  ~/year1cpnm/assignment1/programnull.c
+'9  58  9  ~/year1cpnm/assignment1/program6.c
 
 # Jumplist (newest first):
+-'  23  0  ~/year2/oop/prog27.cpp
+-'  48  0  ~/year2/oop/prog27.cpp
+-'  1  0  ~/year2/oop/prog27.cpp
 -'  3  8  ~/.autopush
 -'  1  0  ~/.autopush
 -'  168  0  ~/year2/dsa/assignment1/prog07.cpp
@@ -136,12 +139,11 @@
 -'  27  0  ~/year1cpnm/assignment1/program6.c
 -'  117  0  ~/year1cpnm/assignment1/program6.c
 -'  169  0  ~/year1cpnm/assignment1/program6.c
--'  176  0  ~/year1cpnm/assignment1/program6.c
--'  166  34  ~/year1cpnm/assignment1/program6.c
--'  179  0  ~/year1cpnm/assignment1/program6.c
--'  168  0  ~/year2/dsa/assignment1/prog07.cpp
 
 # History of marks within files (newest to oldest):
+
+> ~/year2/oop/prog27.cpp
+	"	23	0
 
 > ~/.autopush
 	"	3	8

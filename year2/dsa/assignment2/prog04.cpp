@@ -1,73 +1,70 @@
 #include<iostream>
 using namespace std;
-typedef struct node{
-node* next=NULL;
-node* prev=NULL;
+typedef struct node
+{
 int data=0;
+node *next=NULL;
 }node;
 
-typedef struct doublylinkedlist{
-node * head=NULL;
-}doublylinkedlist;
-
-void insert(doublylinkedlist &d,int i,int n)
+typedef struct linkedlist
 {
-node* temp;
-node *t = d.head;
-cout<<"here1"<<endl;
+node *head=NULL;
+}linkedlist;
+
+void insert(linkedlist &l,int i,int n)
+{
+node *t=l.head;
 if(t==NULL)
 {
-cout<<"here"<<endl;
-d.head=new node;
-t=d.head;
+l.head=new node;
+l.head->data=n;
+return;
+}
+while(i--)
+{
+if(t->next==NULL)
+t->next=new node;
+t=t->next;
+}
+if(t->next==NULL)
+{
 t->data=n;
 return;
 }
-cout<<"passedthis"<<endl;
-while(i--)
-{
-if(t->next=NULL)
-{t->next=new node;
-t->next->prev=t;
-}
-t=t->next;
-
-}
-if(t->next==NULL)
+int k=t->data;
 t->data=n;
-else
-{
-temp = new node;
-temp->prev=t;
-temp->next=t->next;
-t->next=temp;
-temp->next->prev=temp;
-}
+node* x=new node;
+x->next=t->next;
+x->data=k;
+t->next=x;
 }
 
-void deletenode(doublylinkedlist &d,int i)
+void deletenode(linkedlist &l,int i)
 {
-node* t= d.head;
+if(i==0)
+{
+l.head=l.head->next;
+return;
+}
+node *t = l.head;
+i--;
 while(i--)
 {
 t=t->next;
 }
-t->next->prev=t->prev;
-t->prev->next=t->next;
+t->next=t->next->next;
 }
 
-int size(doublylinkedlist &d)
+int size(linkedlist &l)
 {
 int i=0;
-node * t = d.head;
+node * t= l.head;
 while(t!=NULL)
-{
-i++;
+{i++;
 t=t->next;
 }
 return i;
 }
-
 
 void printReverse (node *n)
 {
@@ -81,18 +78,44 @@ cout<<n->data<<" ";
 }
 }
 
-void printReverse(doublylinkedlist &l)
+void printReverse(linkedlist &l)
 {
  printReverse(l.head);
 cout<<endl;
 }
 
-void reverseList(doublylinkedlist &d)
+node* reverseList(node* n)
 {
+if(n==NULL)
+{
+return n;
+}
+node* k=reverseList(n);
+n->next->next=n;
+return n->next;
+}
+
+void reverseList(linkedlist &l)
+{
+node * t= l.head;
+
+int n=size(l);
+int arr[n];
+for(int i=0;i<n;i++)
+{
+arr[i]=t->data;
+t=t->next;
+}
+t=l.head;
+for(int i=n-1;i>=0;i--)
+{
+t->data=arr[i];
+t=t->next;
+}
 }
 
 int main() {
-doublylinkedlist n;
+linkedlist n;
 int choice;
 int i,v;
 do{

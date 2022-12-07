@@ -670,3 +670,192 @@ clear
 logout
 clear
 exit
+ls
+clear
+git pull
+clear
+ls
+cd year2
+ls
+cd oop
+ls
+nano assignment.txt
+clear
+ls
+ls -a
+ls -al
+cd ../
+ls
+ls 
+clear
+ls
+cd dsa
+ls
+cd ../
+ls
+cd oop
+cat prog20.cpp
+nano prog23.cpp
+cd ../
+ls
+cd ../
+ls 
+cd year1cpnm
+ls
+cd ../
+ls
+cd year2
+ls
+cd oop
+ls
+nano prog23.cpp
+git pull
+ls
+cat questions.txt
+cd ../
+ls
+cd oop
+ls
+git pull
+mv Question.txt
+mv Question.txt question.txt
+clear
+cat question.txt
+clear
+ls
+nano prog23.cpp
+g++ -o prog23 prog23.cpp
+nano prog23.cpp
+nano prog25.cpp
+g++ -o prog23 prog23.cpp
+g++ -o prog25 prog25.cpp
+./prog25
+nano prog25.cpp
+g++ -o prog25 prog25.cpp
+./prog25
+clear
+nano prog26.cpp
+g++ -o prog26 prog26.cpp
+./prog26
+clear
+nano prog27.cpp
+nano prog25.cpp
+nano prog27.cpp
+make prog27
+nano prog27.cpp
+make prog27
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+vim prog27.cpp
+g++ -o prog27 prog27.cpp
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+vim prog27.cpp
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+./prog27
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+./prog27
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+./prog27
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+./prog27
+nano prog27.cpp
+g++ -o prog27 prog27.cpp
+./prog27
+nano prog27.cpp
+y
+clear
+prog28.cpp
+nano prog28.cpp
+nano prog29.cpp
+ls
+clear
+git add .
+git add -A
+cd ../
+git add .
+git commit -m "prog 25 26 27 oop done"
+git push
+clear
+cd year2
+cd oop
+nano prog23.cpp
+ls
+nano prog38.cpp
+make prog38
+nano prog38.cpp
+make prog38
+nano prog38.cpp
+make prog38
+nano prog39.cpp
+make prog38
+make prog39
+clear
+nano prog40.cpp
+make prog40
+clear
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+clear
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+./prog41
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+nano prog41.cpp
+make prog41
+./prog41
+nano prog41.cpp
+make prog41
+./prog41
+clear
+nano prog42.cpp
+nano prog41.cpp
+cat prog41
+cat prog41.cpp
+nano prog41.cpp
+nano prog42.cpp
+cat prog38
+cat prog38.cpp
+cat prog39.cpp
+cat prog40.cpp
+cat prog41.cpp
+cd ../
+git add .
+git commit -m "prog 38 39 40 41"
+git push
+clear
+ls
+clear
+ls
+ipconfig
+iperf
+ping
+ping 8.8.8.8
+ping 8.8.8.8  -c 10 -i .31725 -s 1380

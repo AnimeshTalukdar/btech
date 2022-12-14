@@ -9,6 +9,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
+:w
 :q!
 :!q
 :x
@@ -29,18 +30,20 @@
 # Registers:
 
 # File marks:
-'0  65  11  ~/year2/dsa/assignment2/prog4.c
-'1  63  5  ~/year2/dsa/assignment2/prog4.c
-'2  76  5  ~/year2/dsa/assignment2/prog4.c
-'3  95  0  ~/year2/dsa/assignment2/prog4.c
-'4  23  0  ~/year2/oop/prog27.cpp
-'5  48  0  ~/year2/oop/prog27.cpp
-'6  3  8  ~/.autopush
-'7  168  0  ~/year2/dsa/assignment1/prog07.cpp
-'8  120  0  ~/year2/dsa/assignment1/prog07.cpp
-'9  64  0  ~/year2/dsa/assignment1/prog07.cpp
+'0  153  30  ~/year2/dsa/assignment2/prog01.c
+'1  65  11  ~/year2/dsa/assignment2/prog4.c
+'2  63  5  ~/year2/dsa/assignment2/prog4.c
+'3  76  5  ~/year2/dsa/assignment2/prog4.c
+'4  95  0  ~/year2/dsa/assignment2/prog4.c
+'5  23  0  ~/year2/oop/prog27.cpp
+'6  48  0  ~/year2/oop/prog27.cpp
+'7  3  8  ~/.autopush
+'8  168  0  ~/year2/dsa/assignment1/prog07.cpp
+'9  120  0  ~/year2/dsa/assignment1/prog07.cpp
 
 # Jumplist (newest first):
+-'  153  30  ~/year2/dsa/assignment2/prog01.c
+-'  1  0  ~/year2/dsa/assignment2/prog01.c
 -'  65  11  ~/year2/dsa/assignment2/prog4.c
 -'  63  0  ~/year2/dsa/assignment2/prog4.c
 -'  76  0  ~/year2/dsa/assignment2/prog4.c
@@ -138,9 +141,16 @@
 -'  168  32  ~/year1cpnm/assignment1/program6.c
 -'  175  0  ~/year1cpnm/assignment1/program6.c
 -'  165  34  ~/year1cpnm/assignment1/program6.c
--'  178  0  ~/year1cpnm/assignment1/program6.c
 
 # History of marks within files (newest to oldest):
+
+> ~/year2/dsa/assignment2/prog01.c
+	"	153	30
+	^	84	31
+	.	84	30
+	+	51	46
+	+	69	31
+	+	84	30
 
 > ~/year2/dsa/assignment2/prog4.c
 	"	65	11

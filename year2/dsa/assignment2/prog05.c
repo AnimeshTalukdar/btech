@@ -22,7 +22,7 @@ int priority(char symbol)
 {
 switch(symbol)
 {
-case '{':
+case '(':
 return 0;
 case '+':
 case '-':
@@ -64,52 +64,54 @@ exit(1);
 return stack[top--];
 }
 
-long int eval_post()
+void infix_to_postfix()
 {
-long int a,b,temp,result;
-unsigned int i;
-for(i =0;i<strlen(postfix);i++)
+int i,p=0;
+char next;
+char symbol;
+for(i=0;i<strlen(infix);i++)
 {
-if(postfix[i]<='9' && postfix[i]>='0')
-push(postfix[i] - '0');
-else{
-b=pop();
-a=pop();
-switch (postfix[i])
+symbol = infix[i];
+if(!white_space(symbol))
 {
+switch (symbol)
+{
+case '(':
+push(symbol);
+break;
+case ')':
+while((next = pop())!= '(')
+postfix[p++] =next;
+break;
 case '+':
-temp = a+b;
-break;
 case '-':
-temp = a-b;
-break;
 case '*':
-temp = a*b;
-break;
 case '/':
-temp = a/b;
-break;
 case '%':
-temp = a%b;
-break;
 case '^':
-temp = pow(a,b);
+while(!isEmpty() && priority(stack[top])>= priority(symbol))
+postfix[p++] = pop();
+push(symbol);
 break;
+default:
+postfix[p++] = symbol;
+
 }
-push(temp);
 }
 }
-result = pop();
-return result;
+while (!isEmpty())
+{
+postfix[p++] = pop();
+}
+postfix[p] = '\0';
 }
 
 int main(){
 top = -1;
-long int value;
-printf("Enter the postfix expression : \n");
-scanf("%s",&postfix);
-value = eval_post();
-printf("Answer:\n %ld\n",value);
+printf("Enter the expression in infix form :\n");
+scanf("%s",&infix);
+infix_to_postfix();
+printf("The expression in postfix is :\n %s\n",postfix);
 
 return 0;
 }

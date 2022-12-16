@@ -276,3 +276,48 @@ nano prog05
 nano prog05.c
 make prog05
 ./prog05
+clear
+ls
+cd year2
+ls
+cd dsa
+ls
+cd assignment2
+ls
+./prog07
+nano prog07.c
+ls
+nano prog04.c
+make prog04
+./prog04
+nano prog04
+nano prog04.c
+make prog04
+./prog04
+2
+1
+clear
+nano prog03.c
+rm prog08.c
+nano prog08.c
+make prog08
+nano prog01.c
+git remote
+git remote origin
+git origin
+git 
+git sow
+git show
+clear
+nano prog1.c
+nano prog01.c
+make prog01
+nano prog01.c
+vi prog01.c
+cd ../
+cd ~
+git add .
+git add --all
+git commit -m "done assignment 2 dsa"
+git push
+logout

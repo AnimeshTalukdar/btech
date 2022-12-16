@@ -4,7 +4,7 @@ using namespace std;
 class Grade_card
 {
 char *nameofdept;
-char * name;
+char * nameofstudent;
 int roll;
 int sem;
 

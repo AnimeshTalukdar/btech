@@ -25,7 +25,7 @@ return last;
 }
 struct node *create_list(struct node * last){
 int n,i,data;
-printf("Enter the length of the Josephus promlem.\n");
+printf("Enter the number of persons in the Josephus promlem.\n");
 scanf("%d",&n);
 last = NULL;
 if(n==0) return last;
@@ -35,11 +35,12 @@ last = addatend(last,i);
 }
 return last;
 } 
+
+
 int survivor(struct node *last, int k)
 {
 struct node *p, *q;
-int i;
- 
+int i; 
 q = p = last -> link;
 while (p->link != p)
 {
@@ -49,7 +50,7 @@ q = p;
 p = p->link;
 }
 q->link = p->link;
-printf("%d has been killed.\n", p->info);
+printf("KILLED:%d\n", p->info);
 free(p);
 p = q->link;
 }
@@ -60,7 +61,7 @@ return (p->info);
 int main(){
 struct node* last = NULL;
 last = create_list(last);
-printf("Count to choose next : ");
+printf("Number of participants in josephus game : ");
 int k;
 scanf("%d",&k);
 printf("survivor is : %d",survivor(last, k));

@@ -23,7 +23,7 @@ p = start;
 for(i=1;i<pos-1 && p!= NULL;i++)
 p=p->next;
 if(p==NULL)
-printf("There are less then %d elements.\n",pos);
+printf("There are less than %d elements.\n",pos);
 else{
 tmp->next = p->next;
 p->next= tmp;
@@ -46,7 +46,7 @@ p = start;
 for(i=1;i<pos-1 && p!= NULL;i++)
 p=p->next;
 if(p->next==NULL)
-printf("There are less then %d elements.\n",pos);
+printf("There are less than %d elements.\n",pos);
 else{
 tmp = p->next;
 p->next = tmp->next;
@@ -126,9 +126,9 @@ return start;
 int main(){
 struct node *start = NULL;
 int choice, data, item, pos;
-printf("\nCreate a doboly link list.\n\n");
+printf("\nCreate a doubly linked linked list.\n\n");
 start = create_list(start);
-while(1){
+do{
 printf("\n1.Insert at specific position.\n");
 printf("2.Delete at specific position.\n");
 printf("3.Count the number of nodes in link list.\n");
@@ -170,6 +170,7 @@ default:
 printf("Wrong choice.\n");
 }
 }
+while(choice!=7);
 return 0;
 }
 

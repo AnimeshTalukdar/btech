@@ -321,3 +321,107 @@ git add --all
 git commit -m "done assignment 2 dsa"
 git push
 logout
+clear
+cd year2
+ls
+cd dsa
+ls
+cd ../
+cd oop
+ls
+clear
+ls
+nano prog26.cpp
+nano prog42.cpp
+ls 
+cd ~
+ls
+cd ../
+ls
+ls -al | grep *L
+ls 
+cd ~
+ls
+clear
+ls
+cd year2
+ls
+cd dsa
+ls
+cd ../
+ls
+cd oop
+ls
+nano prog14ls -al
+ls
+ls -al
+nano prog38.cpp
+nano prog39.cpp
+nano prog40.cpp
+clear
+ls
+clear
+ls -al
+nano prog41.cpp
+nano prog42.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+vim prog43.cpp
+gcc -o prog43 prog43.cpp
+nano porg43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+ls
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+nano prog43.cpp
+gcc -o prog43 prog43.cpp
+gcc -o prog43 prog43.cpp -c
+gcc -o prog43 prog43.cpp 
+nano prog43.cpp
+ls
+clear
+nano prog28.cpp
+cd ~
+ls
+git add .
+git commit -m "added as of 12/16"
+git push
+commit
+exit

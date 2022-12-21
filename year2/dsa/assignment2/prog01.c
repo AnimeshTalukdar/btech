@@ -4,6 +4,7 @@ struct node{
 int info;
 struct node* link;
 };
+
 struct node *addatpos(struct node *start,int data, int pos)
 {
 struct node *tmp, *p;
@@ -28,7 +29,7 @@ p->link = tmp;
 }
 return start;
 }
-struct node* delatpos(struct node *start,int pos)
+struct node* deletepos(struct node *start,int pos)
 {
 if(start ==NULL)
 {
@@ -56,6 +57,7 @@ free(tmp);
 }
 return start;
 }
+
 void count(struct node *start)
 {
 struct node* p;
@@ -101,6 +103,7 @@ p=p->link;
 }
 printf("\n\n");
 }
+
 void printReverse(struct node *start)
 {
 if(start == NULL)
@@ -108,6 +111,7 @@ return;
 printReverse(start->link);
 printf("%d ",start->info);
 }
+
 struct node *create_list(struct node *start)
 {
 int n,i;
@@ -129,7 +133,7 @@ struct node *start = NULL;
 int choice,data,pos;
 printf("\nCreate a link list.\n\n");
 start = create_list(start);
-while(1)
+do
 {
 printf("\n1. Insert a node at a specific position.\n");
 printf("2. Delete a node from a specific position.\n");
@@ -152,7 +156,7 @@ break;
 case 2:
 printf("Enter the position of the element to delete:");
 scanf("%d",&pos);
-start = delatpos(start,pos);
+start = deletepos(start,pos);
 break;
 case 3:
 count(start);
@@ -167,12 +171,13 @@ case 6:
 display(start);
 break;
 case 7:
-exit(1);
+printf("Exitting....\n");
 break;
 default:
 printf("Wrong choice.\n");
 }
 }
+while(choice!=7);
 return 0;
 }
 

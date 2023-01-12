@@ -36,8 +36,8 @@ salary = s;
 
 virtual void printDetails()
 {
-cout<<"Name: "<<name<<endl;
-cout<<"Salary : "<<salary<<endl;
+cout<<"NAME : "<<name<<endl;
+cout<<"SALARY : "<<salary<<endl;
 }
 
 };
@@ -74,7 +74,7 @@ allowance = a;
 void printDetails()
 {
 Employee :: printDetails();
-cout<<"Allowance : "<<allowance<<endl;
+cout<<"ALLOWANCE : "<<allowance<<endl;
 }
 
 };
@@ -87,11 +87,11 @@ ob1.printDetails();
 ob2.printDetails();
 
 Employee *arr[6];
-arr[0] = new Employee("Person1", rand()%10000);
-arr[1] = new Employee("Person2", rand()%10000);
-arr[2] = new Manager("Person3",rand()%10000,"Merkating");
-arr[3] = new Manager("Person4",rand()%45000,"Seales");
-arr[4] = new Clerk("Person5",rand()%20000,1200.00);
+arr[0] = new Employee("Person1", 10000.00);
+arr[1] = new Employee("Person2", 12000.00);
+arr[2] = new Manager("Person3",46000.00,"Merkating");
+arr[3] = new Manager("Person4",45000.00,"Seales");
+arr[4] = new Clerk("Person5",20000.00,1200.00);
 arr[5] = new Clerk("Person6",20000.00,1000.00);
 
 cout<<"\nDetails of all employee\n\n";
@@ -99,7 +99,6 @@ cout<<"\nDetails of all employee\n\n";
 for(int i ; i<6;i++)
 {
 arr[i]->printDetails();
-cout<<endl;
 }
 
 return 0;

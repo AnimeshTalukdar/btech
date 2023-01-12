@@ -67,7 +67,7 @@ int main()
 {
 Shape2D *arr[5];
 arr[0]=new Circle(1);
-/*
+
 arr[1]=new Circle(2);
 arr[2]=new Circle(3);
 arr[3]=new Rectangle(1,2);
@@ -76,16 +76,15 @@ arr[4]=new Rectangle(2,3);
 //Calculating area and perimeter
 for(int i=0;i<5;i++)
 {
-//arr[i]->area();
-//arr[i]->perimeter();
+arr[i]->area();
+arr[i]->perimeter();
 }
 
 cout<<"The area and perimeter of 2d shapes are"<<endl;
 for(int i=0;i<5;i++)
 {
 cout<<endl;
-//arr[i]->show();
+arr[i]->show();
 }
-*/
 return 0;
 }

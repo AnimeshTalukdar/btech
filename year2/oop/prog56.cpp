@@ -40,4 +40,45 @@ double denominator = other.real * other.real + other.imag * other.imag;
 return Complex((real * other.real + imag * other.imag) / denominator,
 (imag * other.real - real * other.imag) / denominator);
 }
+
+int operator>(const Complex& other)
+{
+if(real>other.real)
+return 1;
+else if (real ==other.real&&imag>other.imag)
+return 1;
+return 0;
+}
+int operator<(const Complex& other)
+{
+if(real>other.real)
+return 0;
+else if (real ==other.real&&imag>other.imag)
+return 0;
+return 1;
+}
+
 };
+
+
+
+#include<iostream>
+using namespace std;
+
+template <class T>
+T Max (T a,T b)
+{
+if(a>b)return a;
+else return b;
+}
+
+int main()
+{
+int a=1,b=2;
+cout<<Max(a,b);
+Complex obja(1,2);
+Complex objb(2,3);
+Complex objc=Max(obja,objb);
+cout<<objc.getReal()<<objc.getImag();
+
+}

@@ -135,7 +135,7 @@ post_order_traverse(root);
 printf("\n");
 break;
 case 4:
-printf("Exitting");
+printf("Exitting.....\n");
 exit(0);
 default:
 break;

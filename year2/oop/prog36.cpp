@@ -25,7 +25,7 @@ return data[i];
 }
 
 
-friend std::istream& operator>>(std::istream& in, Table& t) {
+friend istream& operator>>(istream& in, Table& t) {
 for (int i = 0; i < t.rows; i++) {
 for (int j = 0; j < t.cols; j++) {
 in >> t.data[i][j];
@@ -33,12 +33,12 @@ in >> t.data[i][j];
 }
 return in;
 }
-friend std::ostream& operator<<(std::ostream& out, const Table& t) {
+friend ostream& operator<<(ostream& out, const Table& t) {
 for (int i = 0; i < t.rows; i++) {
 for (int j = 0; j < t.cols; j++) {
 out << t.data[i][j] << " ";
 }
-out << std::endl;
+out << endl;
 }
 return out;
 }

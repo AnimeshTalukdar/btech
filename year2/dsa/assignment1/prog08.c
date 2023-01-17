@@ -1,64 +1,43 @@
-
-
-
-#include<iostream>
-using namespace std;
-typedef struct node{
-int i,j,data;
-node *next = NULL;
-}node;     
-struct matrix {  
-node* head; 
-};                 
-void insertmatrix(matrix &m,int n)
-{          
-m.head= new node;
-node *t= m.head;  
-node *oldt;
-for(int i=0;i<n;i++)
+#include<stdio.h>
+typedef struct element
 {
-for(int j=0;j<n;j++)               
+int row , col , val;
+}element;
+typedef struct matrix
 {
-int k;          
-cin>>k;                
-if(k!=0)
-{
-t->i = i;
-t->j=j;      
-t->data =k;             
-t->next = new node;    
-oldt= t;  
-t=t->next;
-}     
-}                
-}
-oldt->next = NULL;
-}                
+int n , r , c;
+element a[100];
+}matrix;
 int main()
 {
-cout<<"Enter the size of the matrix"<<endl;
-int size;
-cin>>size;
 matrix m;
-cout<<"Enter the matrix"<<endl;
-insertmatrix(m,size);
-node * t = m.head;
-cout<<"Enter the row of which you would like to find the number of elements of"<<endl;
-int row;
-cin>>row;
-int count =0;
-while(t != NULL)
+printf("Enter the dimensions of the matrix\n");
+scanf("%d %d" , &m.r , &m.c);
+printf("Enter the number of non-zero elements of the matrix\n");
+scanf("%d" , &m.n);
+int i;
+for(i=0 ; i<m.n ; i++)
 {
-if(t->i==row-1)
+printf("Index of row of element %d : " , i+1);
+scanf("%d" , &m.a[i].row);
+printf("Index of column of element %d : " , i+1);
+scanf("%d" , &m.a[i].col);
+printf("Value of the element %d : " , i+1);
+scanf("%d" , &m.a[i].val);
+}
+int x=0  , y=0 , sum=0;
+while(x<m.r)
 {
-count++;
+if(x==m.a[y].row)
+{
+sum++ , y++;
 }
-t=t->next;
+else
+{
+printf("The number of non-zero elements in row of index %d of the matrix is %d\n" , x  , sum);
+sum=0;
+x++;
 }
-cout<<"The number of elements in row "<<row <<" is "<<count<<endl;
+}
 return 0;
 }
-
-
-
-

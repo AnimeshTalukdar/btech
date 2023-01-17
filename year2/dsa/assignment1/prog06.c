@@ -1,101 +1,84 @@
-#include<stdio.h>
-typedef struct node{
-int data;
-struct node* next = NULL;
-}node;
-typedef struct largenumber{
-struct node* digit = NULL;
-}ln;
-int strlen1(char *s)
-{
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct term {
+int c,e;
+}term;
+
+typedef struct poly {
+term t[40];
+int n;
+}poly;
+void plarge(poly a) {
 int i;
-for(i=0;s[i]!='\0';i++);
-return i;
+for (i = 0; i < a.n; i++) 
+printf ("%d", a.t[i].c);
 }
-void insert(ln &n,char *s)
-{
-n.digit = new node;
-node* t = n.digit;
-int i= strlen1(s);
-while(i--)
-{
-t->data = s[i]-'0';
-if(i!=0) {
-t->next = new node;
-t = t->next;
+void rlarge (poly *a) {
+int i;
+printf ("Enter no. of digits: ");
+scanf("%d", &a->n);
+printf ("Enter the digits of the number (space-separated): ");
+for (i = 0; i < a->n;i++) {
+scanf ("%d", &a->t[i].c);
+if (a->t[i].c < 0 || a->t[i].c > 9) {
+printf ("Invalid digit. Try again.");
+continue;
+}
+a->t[i].e = a->n - 1 - i;
 }
 }
+poly* add (poly a, poly b) {
+poly *c = (poly *) malloc(sizeof(poly));   int i, j, k;
+for (i = 0, j = 0, k = 0; i < a.n && j < b.n; k++) {
+if (a.t[i].e == b.t[j].e) {
+c->t[k].c = a.t[i].c + b.t[j].c;
+c->t[k].e = a.t[i].e;
+i++; j++;
 }
-void add(ln&n,ln &m)
-{
-int hold = 0;
-node *oldt1;
-node *t1=n.digit;
-node *t2=m.digit;
-while(t1!=NULL&&t2!=NULL)
-{
-t1->data = t1->data+t2->data+hold;
-hold = t1->data/10;
-t1->data = t1->data%10;
-oldt1= t1;
-t1= t1->next;
-t2=t2->next;
+else if (a.t[i].e > b.t[j].e) {
+c->t[k].c = a.t[i].c;
+c->t[k].e = a.t[i].e;
+i++;
 }
-if(t1==NULL)
-{
-oldt1->next = new node;
-t1= oldt1->next;
-while(t2!=NULL)
-{
-t1->data = hold + t2->data;
-hold=t1->data/10;
-t1->data= t1->data%10;
+else {
+c->t[k].c = b.t[j].c;
+c->t[k].e = b.t[j].e;
+j++;
+}
+}
+while (i < a.n) {
+c->t[k].c = a.t[i].c;
+c->t[k].e = a.t[i].e;
+i++;  k++;
+}
+while (j < b.n) {
+c->t[k].c = b.t[j].c;
+c->t[k].e = b.t[j].e;
+j++; k++;
+}
+c->n = k;
+return c;
+}
 
-t2=t2->next;
-if(t2!=NULL)
-{
-t1->next= new node;
-t1=t1->next;
+poly* addlarge (poly a, poly b) {
+poly *c = add(a, b);
+int car = 0, i;
+for (i = c->n - 1; i >= 0; i--) {
+c->t[i].c += car;
+car = c->t[i].c/10;
+c->t[i].c %= 10;
 }
-
+return c;
 }
-}
-}
-void printnodes(node * n)
-{
-if(n->next == NULL)
-cout<<n->data;
-else
-{
-printnodes(n->next);
-cout<<n->data;
-}
-}
-void printlongn(ln n)
-{
-printnodes(n.digit);
-}
-int main(){
-ln n,m;
-cout<<"Enter the first long number: "<<endl;
-char s1[100];
-cin>>s1;
-cout<<"Enter the second long number: "<<endl;
-char s2[100];
-cin>>s2;
-insert(n,s1);
-insert(m,s2);
-cout<<"Added long number:"<<endl;
-add(n,m);
-printlongn(n);
-cout<<endl;
+int main() {
+poly a, b, *c;
+rlarge(&a);rlarge(&b);
+c = addlarge(a, b);
+printf ("A = ");  plarge(a);
+printf (", B = ");  plarge(b);
+printf ("\nA + B = ");
+plarge(*c);
+printf ("\n");
 return 0;
 }
-
-
-
-
-
-
-
-

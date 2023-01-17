@@ -25,7 +25,7 @@ scanf("%d%d",&arr2[i].coe,&arr2[i].exp);
 
 
 SP mult[m*n];
-printf("%d",m*n);
+
 int j;
 for(i=0;i<n;i++)
 {
@@ -78,7 +78,7 @@ for( i=0;i<m*n;i++)
 {
 if(mult[i].coe!=0)
 {
-printf("%dx^%d",&mult[i].coe,&mult[i].exp);
+printf("%dx^%d",mult[i].coe,mult[i].exp);
 if(i!=m*n-1)
 printf("+");
 }

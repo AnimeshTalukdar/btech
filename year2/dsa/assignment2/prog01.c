@@ -29,12 +29,13 @@ p->link = tmp;
 }
 return start;
 }
+
 struct node* deletepos(struct node *start,int pos)
 {
 if(start ==NULL)
 {
 printf("Emptry list\n");
-return;
+return NULL;
 }
 struct node *tmp,*p;
 int i;
@@ -57,6 +58,7 @@ free(tmp);
 }
 return start;
 }
+
 
 void count(struct node *start)
 {

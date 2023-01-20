@@ -5,11 +5,11 @@ int exp,coe;
 int main()
 {
 printf("Enter the no of elements :\n");
-int n;
+int n,i;
 scanf("%d",&n);
 SP arr[n];
 printf("Enter the elements \n");
-for(int i=0;i<n;i++)
+for( i=0;i<n;i++)
 {
 scanf("%d%d",&arr[i].coe,&arr[i].exp);
 }
@@ -19,13 +19,13 @@ int m;
 scanf("%d",&m);
 SP arr2[m];
 printf("Enter the elements \n");
-for(int i=0;i<m;i++)
+for( i=0;i<m;i++)
 scanf("%d%d",&arr2[i].coe,&arr2[i].exp);
 SP sum[m+n];
-for(int i=0;i<m+n;i++)
+for( i=0;i<m+n;i++)
 sum[i].exp=-1;
 
-int i,j,c=0;
+int j,c=0;
 for(i=0,j=0;i<n&&j<m;)
 {
 if(arr[i].exp<arr2[j].exp)

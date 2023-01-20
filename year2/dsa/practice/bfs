@@ -1,0 +1,19 @@
+bfs (start)
+{
+q = start;
+visited[start]=1;
+print (start);
+int result 
+int v;
+while( dequeue (q,&v)!=-1)
+{
+print ( v);
+adj = g->adjlist[v];
+while(adj!=NULL)
+{
+if(!visited(adj->vertex))
+enqueue(q,adj->vertex); visited [adj->vertex ]=1;
+
+adj=adj->next;
+}
+}

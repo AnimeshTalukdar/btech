@@ -30,18 +30,21 @@
 # Registers:
 
 # File marks:
-'0  10  16  ~/year2/oop/prog44.cpp
-'1  307  21  ~/year2/dsa/assignment3/prog4.c
-'2  79  9  ~/year2/dsa/assignment3/prog4.c
-'3  58  5  ~/year2/dsa/assignment3/prog4.c
-'4  61  0  ~/year2/dsa/assignment3/prog4.c
-'5  1  0  ~/year2/dsa/assignment3/prog1.c
-'6  47  10  ~/year2/oop/prog43.cpp
-'7  153  30  ~/year2/dsa/assignment2/prog01.c
-'8  65  11  ~/year2/dsa/assignment2/prog4.c
-'9  63  5  ~/year2/dsa/assignment2/prog4.c
+'0  38  6  ~/year2/oop/prog51.cpp
+'1  42  7  ~/year2/oop/prog51.cpp
+'2  10  16  ~/year2/oop/prog44.cpp
+'3  307  21  ~/year2/dsa/assignment3/prog4.c
+'4  79  9  ~/year2/dsa/assignment3/prog4.c
+'5  58  5  ~/year2/dsa/assignment3/prog4.c
+'6  61  0  ~/year2/dsa/assignment3/prog4.c
+'7  1  0  ~/year2/dsa/assignment3/prog1.c
+'8  47  10  ~/year2/oop/prog43.cpp
+'9  153  30  ~/year2/dsa/assignment2/prog01.c
 
 # Jumplist (newest first):
+-'  38  6  ~/year2/oop/prog51.cpp
+-'  42  0  ~/year2/oop/prog51.cpp
+-'  1  0  ~/year2/oop/prog51.cpp
 -'  10  16  ~/year2/oop/prog44.cpp
 -'  1  0  ~/year2/oop/prog44.cpp
 -'  307  21  ~/year2/dsa/assignment3/prog4.c
@@ -137,12 +140,19 @@
 -'  15  0  ~/year2/dsa/day1/prog1.c
 -'  1  0  ~/year2/dsa/day1/prog1.c
 -'  118  0  ~/year1cpnm/assignment1/programnull.c
--'  1  0  ~/year1cpnm/assignment1/programnull.c
--'  58  9  ~/year1cpnm/assignment1/program6.c
--'  107  0  ~/year1cpnm/assignment1/program6.c
--'  27  0  ~/year1cpnm/assignment1/program6.c
 
 # History of marks within files (newest to oldest):
+
+> ~/year2/oop/prog51.cpp
+	"	38	6
+	^	38	7
+	.	38	6
+	+	18	5
+	+	29	8
+	+	31	0
+	+	42	8
+	+	40	0
+	+	38	6
 
 > ~/year2/oop/prog44.cpp
 	"	10	16

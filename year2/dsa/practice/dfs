@@ -1,0 +1,15 @@
+visited [n] = 0;
+dfs(int start)
+{
+print(start);
+visited[start]=1;
+int * adj = adjlist[start];
+while ( adj ! = NULL)
+{
+if(!visited [adj->data])
+{
+dfs(adj->data);
+}
+adj=adj->next;
+}
+

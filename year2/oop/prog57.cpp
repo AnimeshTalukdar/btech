@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 class Complex {
 private:
 double real;
@@ -68,27 +71,29 @@ return 0;
 return 1;
 }
 
+void display()
+{
+cout<<real<<"+"<<imag<<"i"<<endl;
+}
 };
 
-
-
-#include<iostream>
-using namespace std;
-
 template <class T>
-T Max (T a,T b)
+void swamp(T &a,T &b)
 {
-if(a>b)return a;
-else return b;
+T c;
+c= a;
+a=b;
+b=c;
 }
+
 
 int main()
 {
-int a=1,b=2;
-cout<<Max(a,b);
-Complex obja(1,2);
-Complex objb(2,3);
-Complex objc=Max(obja,objb);
-cout<<objc.getReal()<<objc.getImag();
+Complex a(1,2),b(2,1);
+a.display();
+b.display();
+swap(a,b);
+a.display();
+b.display();
 
 }

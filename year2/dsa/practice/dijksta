@@ -1,0 +1,15 @@
+shortestpath(int satrt)
+{
+dist [ x] =infinte;
+dist [start ] = 0;
+adj = g->adjlist[start];
+while(adj!=NULL)
+{
+dist [adj->vertex] = adj->dist;
+}
+q= set of all vertices
+
+while(q! = NULL)
+{
+}
+}

@@ -26,7 +26,7 @@ if(inOrder[i]== new_node->data) break;
 }
 new_node -> left = construct_tree(preOrder, start, i-1,inOrder,pIndex);
 new_node -> right = construct_tree(preOrder, i+1, end,inOrder,pIndex);
-return new_node; 
+return new_node;
 }
 
 Node* build_BST(int inOrder[], int preOrder[], int n) {
@@ -41,7 +41,29 @@ traverse_postorder(root->right);
 printf("%d ",root-> data);
 }
 }
+int COUNT = 10;
+void printthetree( Node* root, int space)
+{
 
+if (root == NULL)
+return;
+
+
+space += COUNT;
+
+
+printthetree(root->right, space);
+
+
+
+printf("\n");
+for (int i = COUNT; i < space; i++)
+printf(" ");
+printf("%d\n", root->data);
+
+
+printthetree(root->left, space);
+}
 int main(){
 int elements;
 printf("Enter the number of elements in the tree.\n");
@@ -58,5 +80,6 @@ root = build_BST(inOrder,preOrder,elements);
 printf("Post-order-traversal.\n");
 traverse_postorder(root);
 printf("\n");
+printthetree(root,0);
 return 0;
 }

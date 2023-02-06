@@ -54,7 +54,7 @@ void preOrder(node *root)
 {
     if (root != NULL)
     {
-        printf("d> ", root->data);
+        printf("%> ", root->data);
         preOrder(root->left);
         preOrder(root->right);
     }

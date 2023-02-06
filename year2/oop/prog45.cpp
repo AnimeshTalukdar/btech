@@ -8,10 +8,10 @@ Base()
 {
 cout << "This is inside Base constructor\n";
 }
-// virtual ~Base()                                            //give an error
-// {
-//     cout << "This is inside Base destructor\n";
-// }
+ virtual ~Base()                                            //give an error
+ {
+     cout << "This is inside Base destructor\n";
+ }
 
 
 };

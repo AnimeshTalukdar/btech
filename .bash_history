@@ -457,3 +457,364 @@ cat prog56.cpp
 nano prog57.cpp
 clear
 exit
+clear
+cd year2
+cd oop
+ls
+nano prog57.cpp
+g++ prog57.cpp -o prog57
+nano prog57.cpp
+g++ prog57.cpp -o prog57
+./prog57
+clear
+nano prog57.cpp
+cd ~
+git add -all
+git add --all
+git commit -m "not done prog 49 32 "
+git push
+exit
+ls
+ls -al ../
+clear
+ls /
+ls -al /
+ls -al /usr/bin
+ls -al /
+pwd
+ls /home/usr
+ls /home/usr/faculty
+ls -al /home/usr/faculty
+nslookup google.com
+nslookup 8.8.8.8
+ping 8.8.8.8
+cd /etc
+ls
+ls -al |grep hosts
+cat hosts
+cat hosts.allow
+clear
+ls
+cat hosts.deny
+ls -al
+ls -al | grep r--. 
+ls -al | grep "r--." 
+clear
+ls -al | grep "r--." 
+cd ~
+ls
+clear
+git pull
+clear
+cd /etc
+ls
+cat resolv.conf
+ls | grep resolv
+cat resolv.conf
+exit
+ipconfig
+ip
+ip -a
+ip addr
+ip addr | grep dns
+ip addr | grep domain
+ip addr | grep do
+ip addr | grep d
+ip addr 
+ns
+ls
+ls -al /usr/faculty
+ls /
+ls /usr
+pwd
+ls -al /home/usr/faculty
+cd year2
+cd dsa
+cd assignment3
+ls
+cat prog4copy.c
+logout
+ls
+cd year2
+ls
+cd dsa
+ls
+cd assignment3
+ls
+logout
+cd year2
+cd dsa
+cd assignment3
+ls
+cat prog4
+cat prog4.c
+logout
+ls
+clear
+cd year2
+cd dsa
+cd assignment3
+ls
+rm prog_
+rm prog?
+ls
+make prog1
+make prog2
+make prog3
+make prog5
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+cat prog4
+clear
+cat prog4.c
+make prog1
+make prog2
+make prog3
+make prog4
+nano prog2
+nano prog2.cpp
+nano prog2.c
+make prog2
+./prog2
+./prog1
+./prog3
+clear
+ls
+./prog4
+clear
+./prog4
+clear
+ls
+clear
+ls
+cd ../
+ls
+cd ../
+ls
+cd asm
+ls
+cd ../
+ls
+clear
+ls
+cd dsa
+ls
+cd assignment3
+ls
+./prog3
+cat questions.txt
+nano prog2
+./prog2
+nano prog2
+nano prog2.c
+make prog2
+./prog2
+clear
+make prog*
+make prog?
+clear
+make prog?
+rm prog?
+ls
+make prog?
+ls
+make prog?
+clear
+make prog1
+make prog2
+make prog3
+make prog4
+clear
+nano prog2.
+nano prog2.c
+clear
+ls
+make prog4
+./prog4
+make prog2
+./prog2
+clear
+ls
+nano prog4.cpp
+nano prog4.c
+cp prog4.c prog4co.c
+ls
+nano prog4.c
+ls
+nano prog4.c
+make prog4
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+make prog4
+./prog4
+make prog4
+./prog4
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+make prog4co
+./prog4
+nano prog4.c
+ls
+clear
+ls
+rm prog4.c
+cp prog4co.c prog4.c
+ls
+make prog4
+./prog4
+nano prog4.c
+make prog4
+nano prog4.c
+make prog4
+./prog4
+nano prog4.c
+y
+make prog4.c
+nano prog4.c
+make prog4
+./prog4
+nano prog4
+nano prog4.c
+make prog4
+nano prog4.c
+make prog4
+nano prog4.c
+make prog4
+./prog4
+exit
+ls
+git pull
+cd year2
+ls
+cd dsa 
+cd assignment3
+ls
+nano prog2.c
+ls
+cd year2
+ls
+vd dsa
+cd dsa
+ls
+cd assignment3
+ls
+cat prog1copy.c
+ls
+cat prog4.c
+clear
+ls
+cd year2
+ls
+cd ds
+dsa
+ls
+cd dsa
+ls
+cd assignment3
+ls
+nano prog1copy.c
+make prog1
+make prog1copy
+./prog1copy
+nano prog1copy.c
+make prog1copy
+./prog1copy
+./prog2
+./prog3
+clear
+ls
+cp prog1.c prog1co.c
+rm prog1.c
+cp prog1co.c prog1.c
+make prog1
+./prog1
+make prog1
+./prog1
+nano pgo1copy
+make prog1copy
+./prog1copy
+cp prog1copy.c prog1.c
+make prog1
+./prog1
+clear
+ls
+nano prog1.c
+make prog1
+./prog1
+make prog4
+./prog4
+make prog4
+./prog4
+clear
+cd ../
+ls
+cd assignment2
+ls
+./prog01
+./prog02
+clear
+ls
+cat assignment.txt
+clear
+cd ../
+ls
+cd assignment1
+ls
+cat questoins 
+cat questions
+cat "questions set1.txt"
+mv "questios set1.txt" questoins.txt
+mv "questions set1.txt" questoins.txt
+ls
+cat questions.txt
+mv questoins.txt questions.txt
+cat questions.txt
+clear
+cd ../
+cd assignment3
+ls
+cd ../
+ls
+cd assignment2
+ls
+cd ../
+ls
+cd assignment1
+ls
+clear
+ls
+clear
+cd assignment2
+ls
+cd ../
+cd assignment2
+ls
+./prog1
+./prog01
+clear
+cleara
+clear 
+exit
+ssh be21149@172.16.4.112
+exit

@@ -48,22 +48,20 @@ void printthetree( Node* root, int space)
 if (root == NULL)
 return;
 
-
 space += COUNT;
-
 
 printthetree(root->right, space);
 
-
-
 printf("\n");
-for (int i = COUNT; i < space; i++)
+int i;
+for ( i = COUNT; i < space; i++)
 printf(" ");
 printf("%d\n", root->data);
-
-
 printthetree(root->left, space);
 }
+
+
+
 int main(){
 int elements;
 printf("Enter the number of elements in the tree.\n");

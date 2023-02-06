@@ -72,7 +72,7 @@ printf("%d ", arr[i]);
 printf("\n");
 }
 
-int partition (int arr[], int low, int high,int n) {
+int partition (int arr[], int low, int high) {
 int pivot = arr[high];   
 int i = (low - 1);  
 int temp,j;
@@ -89,21 +89,21 @@ arr[j] = temp;
 temp = arr[i + 1];
 arr[i + 1] = arr[high];
 arr[high] = temp;
-printArray(arr, n);
+printArray(arr, high+1);
 return (i + 1);
 }
 
-void quickSort(int arr[], int low, int high,int n) {
+void quickSort(int arr[], int low, int high) {
 if (low < high) {
-int pi = partition(arr, low, high,n);
-quickSort(arr, low, pi - 1,n);
-quickSort(arr, pi + 1, high,n);
+int pi = partition(arr, low, high);
+quickSort(arr, low, pi - 1);
+quickSort(arr, pi + 1, high);
 }
 }
 
 
 
-void merge(int arr[], int l, int m, int r,int arr1[],int nk) {
+void merge(int arr[], int l, int m, int r) {
 int i, j, k;
 int n1 = m - l + 1;
 int n2 = r - m;
@@ -140,20 +140,20 @@ arr[k] = R[j];
 j++;
 k++;
 }
-printArray(arr1,nk); 
+printArray(arr, r+1); 
 }
 
 
-void mergeSort(int arr[], int l, int r,int arr1[],int nk) {
+void mergeSort(int arr[], int l, int r) {
 if (l < r) {
 
 int m = l+(r-l)/2;
 
 
-mergeSort(arr, l, m,arr1, nk);
-mergeSort(arr, m+1, r,arr1,nk);
+mergeSort(arr, l, m);
+mergeSort(arr, m+1, r);
 
-merge(arr, l, m, r,arr1,nk);
+merge(arr, l, m, r);
 }
 }
 
@@ -268,7 +268,7 @@ break;
 
 case 4:
 printf("\nQuick Sort:\n");
-quickSort(arr, 0, n-1,n);
+quickSort(arr, 0, n-1);
 printf("Sorted Array :\n");
 printArray(arr,n);
 for(i=0;i<n;i++)
@@ -277,7 +277,7 @@ break;
 
 case 5:
 printf("\nMerge Sort:\n");
-mergeSort(arr,0,n-1,arr,n);
+mergeSort(arr,0,n-1);
 printf("Sorted Array :\n");
 printArray(arr,n);
 for(i=0;i<n;i++)

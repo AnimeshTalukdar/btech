@@ -16,7 +16,7 @@ arr[9]=0;
 for(i=3;i<10;i++)
 {arr[i-1]=arr[i];}
 arr[9]=0;
-printf("%d\n",arr[4]);
+printf("Fifth element is %d\n",arr[4]);
 return 0;
 }
 

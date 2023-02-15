@@ -1,117 +1,67 @@
 #include<stdio.h>
-#include<string.h>
-#include<math.h>
-#include<stdlib.h>
 
-#define BLANK ' '
-#define TAB '\t'
-#define MAX 50
-
-char infix[MAX], postfix[MAX];
-long int stack[MAX];
-int top;
-
-
-int white_space(char symbol)
+char stack[100];
+int top = -1;
+void push(char x)
 {
-if(symbol==BLANK || symbol == TAB) return 1;
-else return 0;
+stack[++top] = x;
 }
-
-int priority(char symbol)
+char pop()
 {
-switch(symbol)
-{
-case '(':
-return 0;
-case '+':
-case '-':
-return 1;
-case '*':
-case '/':
-case '%':
-return 2;
-case '^':
-return 3;
-default:
-return 0;
-}
-}
-
-int isEmpty()
-{
-if(top == -1 ) return 1;
-else return 0;
-}
-
-void push(long int symbol)
-{
-if(top>MAX)
-{
-printf("Stack Overflow.\n");
-exit(1);
-}
-stack[++top] = symbol;
-}
-
-long int pop()
-{
-if(isEmpty())
-{
-printf("Stack Underflow.\n");
-exit(1);
-}
+if(top == -1)
+return -1;
+else
 return stack[top--];
 }
-
-void infix_to_postfix()
+int priority(char x)
 {
-int i,p=0;
-char next;
-char symbol;
-for(i=0;i<strlen(infix);i++)
-{
-symbol = infix[i];
-if(!white_space(symbol))
-{
-switch (symbol)
-{
-case '(':
-push(symbol);
-break;
-case ')':
-while((next = pop())!= '(')
-postfix[p++] =next;
-break;
-case '+':
-case '-':
-case '*':
-case '/':
-case '%':
-case '^':
-while(!isEmpty() && priority(stack[top])>= priority(symbol))
-postfix[p++] = pop();
-push(symbol);
-break;
-default:
-postfix[p++] = symbol;
-
-}
-}
-}
-while (!isEmpty())
-{
-postfix[p++] = pop();
-}
-postfix[p] = '\0';
-}
-
-int main(){
-top = -1;
-printf("Enter the infix : ");
-scanf("%s",&infix);
-infix_to_postfix();
-printf("Postfix : %s\n",postfix);
-
+if(x == '(')
+return 0;
+if(x == '+' || x == '-')
+return 1;
+if(x == '*' || x == '/')
+return 2;
+if(x == '^')
+return 3;
 return 0;
 }
+int main()
+{
+char exp[100];
+char *e, x;
+printf("Input Infix:");
+scanf("%s",exp);
+printf("\n");
+e = exp;
+printf("postfix: ");
+while(*e != '\0')
+{
+if(isalnum(*e))
+printf("%c ",*e);
+else if(*e == '(')
+push(*e);
+else if(*e == ')')
+{
+while((x = pop()) != '(')
+printf("%c ", x);
+}
+else if(priority(stack[top]) == 3 && priority(*e)==3)
+{
+push(*e);
+}
+else
+{
+while(priority(stack[top]) >= priority(*e))
+printf("%c ",pop());
+push(*e);
+}
+e++;
+}
+while(top != -1)
+{
+printf("%c ",pop());
+}
+printf("\n");
+return 0;
+}
+

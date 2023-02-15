@@ -818,3 +818,103 @@ clear
 exit
 ssh be21149@172.16.4.112
 exit
+ls
+clear
+ls 
+cd year2
+ls
+cd ~
+git add .
+git add -all
+git add --all
+git commit -m "6th feb"
+git push
+clear
+ls
+exit
+git pull
+lsc
+ls
+clear
+ls 
+cd year2
+ls
+cd dsa
+ls
+cd assignment1
+ls
+rm prog0?
+ls
+make prog01
+make prog02
+make prog03
+make prog04
+g++ prog04
+gcc prog04
+gcc prog04.c
+cc prog04.c -o prog04 -lm
+make prog05
+make prog06
+make prog07
+make prog08
+make prog09
+clear
+ls
+./prog01
+./prog02
+2
+./prog03
+3
+clear
+cd ../
+cd assignment2
+ls
+rm tempCodeRunnerFile.c
+ls
+cd ../
+cd assignment1
+./prog5
+./prog05
+./prog06
+./prog07
+
+./prog07
+./prog08
+1
+cd ../assignment2
+ls
+rm prog0?
+ls
+make prog01
+make prog02
+make prog04
+make prog03
+make prog05
+make prog06
+make prog07
+make prog08
+make prog09
+ls
+cc prog06.c -o prog06 -lm
+ls
+clear
+ls
+./prog01
+./prog02
+./prog03
+./prog04
+2
+clear
+ls
+./prog05
+exit
+cd year2
+cd dsa
+cd assignmen1
+cd assignment1
+ls
+cat prog08.c
+cd year2
+cd dsa
+cd assignment1
+cat prog08.c

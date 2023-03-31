@@ -57,8 +57,12 @@ printf("The resulting array is------\n");
 for(i=0 ; i<r ; i++)
 {
 for(j=0 ; j<c ; j++)
-printf("%d " , p[i][j]);
+{
+if(p[i][j]!=0){
+printf("%d %d %d " ,i,j p[i][j]);
 printf("\n");
+}
+}
 }
 return 0;
 }

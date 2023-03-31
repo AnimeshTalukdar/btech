@@ -1,380 +1,3 @@
-ls
-cd year2
-cd oop
-ls
-ls -al
-./prog01
-rm prog2
-./prog02
-ls -al
-ls
-clear
-ls
-ls -al
-rm .bash_history
-ls
-clear
-cd year2
-cd oop
-ls
-nano prog44.cpp
-make prog44
-g++ prog44.cpp -c prog44
-g++ prog44.cpp -oc prog44
-g++ prog44.cpp -o prog44 -c
-clear
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-nano prog44.cpp
-g++ prog44.cpp -o prog44 -c
-./prog44
-g++ prog44.cpp -o prog44 
-./prog44
-ls
-clear
-nano prog44.cpp
-g++ prog44.cpp -o prog44 
-./prog44
-nano prog44.cpp
-g++ prog44.cpp -o prog44 
-./prog44
-clear
-nano prog44.cpp
-g++ prog44.cpp -o prog44 
-./prog44
-nano prog44.cpp
-g++ prog44.cpp -o prog44 
-nano prog44.cpp
-g++ prog44.cpp -o prog44 
-nano prog44.cpp
-g++ prog44.cpp -o prog44 
-nano prog44.cpp
-g++ prog44.cpp -o prog44 
-./prog44
-nano prog44.cpp
-ls
-clear
-ls
-clear
-ls
-ls -al
-nano prog44.cpp
-ls
-nano prog32.cpp
-mv prog32.cpp prog36.cpp
-nano prog36.cpp
-g++ prog36.cpp -o prog36
-nano prog36.cpp
-g++ prog36.cpp -o prog36
-nano prog36.cpp
-g++ prog36.cpp -o prog36
-nano prog36.cpp
-g++ prog36.cpp -o prog36
-g++ prog36.cpp -o prog36 -c
-nano prog36.cpp
-clear
-ls
-nano prog36.cpp
-g++ prog36.cpp -o prog36 -c
-nano prog36.cpp
-g++ prog36.cpp -o prog36 -c
-./prog36
-g++ prog36.cpp -o prog36 
-./prog36
-nano prog36.cpp
-g++ prog36.cpp -o prog36 
-nano prog36.cpp
-g++ prog36.cpp -o prog36 
-nano prog36.cpp
-g++ prog36.cpp -o prog36 
-nano prog36.cpp
-ls
-clear
-nano prog56.cpp
-nano prog36.cpp
-g++ prog36.cpp -o prog36 
-nano prog56.cpp
-g++ prog56.cpp -o prog56 
-ls
-clear
-ls
-g++ prog56.cpp -o prog56 
-nano prog56.cpp
-g++ prog56.cpp -o prog56 
-./prog56
-nano prog56.cpp
-nano prog31.cpp
-ls
-ls 
-cat prog31.cpp
-nano prog56.cpp
-g++ prog56.cpp -o prog56 
-clear
-g++ prog56.cpp -o prog56 
-nano prog56.cpp
-g++ prog56.cpp -o prog56 
-nano prog56.cpp
-g++ prog56.cpp -o prog56 
-./prog56]
-./prog56
-nano prog56.cpp
-git add .
-git add -- all
-git add --all
-cd ~
-git add --all
-git status
-git commit -m "done prog 44 and 56 half " 
-git push 
-logout
-ls
-clear
-ls 
-cd year2
-ls
-cd oop
-cd ../
-cd dsa
-ls
-cd assignment3
-ls
-cat prog4copy.c
-logout
-cd year2/dsa/assignment3
-ls
-nano prog3.c
-cat prog3.c
-clear
-ls
-cd year2
-ls
-cd ../
-git pull
-clear
-ls
-cd year2
-ls
-rm Lecture-Notes*
-ls
-cd dsa
-ls
-clear
-ls
-cd assignment1
-ls
-rm prog0?
-ls
-make prog0*
-make prog0_
-make prog0?
-clear
-ls
-make prog01
-make prog02
-make prog03
-nano prog03
-nano prog03.c
-make prog03
-nano prog03.c
-make prog03
-nano prog03.c
-make prog03
-nano prog03.c
-make prog03
-nano prog03.c
-make prog03
-nano prog03.c
-make prog03
-make prog0
-cc prog03.c -o prog03 -lm
-make prog05
-make prog06
-make prog07
-make prog08
-make prog09
-clear
-cd ../
-ls
-cd assignment2
-ls
-./prog01
-rm prog0?
-ls
-make prog01
-./prog01
-clear
-make prog01
-make prog02
-make prog03
-make prog04
-make prog06
-make prog05
-cc prog06.c -o prog06 -lm
-make prog07
-make prog08
-make prog09
-clear
-ls
-cd ./
-ls
-cd ../
-ls
-cd assignment3
-ls
-./prog1
-./prog2
-clear
-rm prog0?
-ls
-rm prog?
-ls
-make prog01
-make prog1
-make prog2
-make prog3
-make prog4
-make prog5
-clear
-ls 
-clear
-cd../
-cd ../
-ls
-cd dsa
-cd assignment3
-ls
-nano prog02.c
-nano prog2.c
-ls
-nano questions.txt
-nano prog2.c
-./prog2
-clear
-./prog1
-nano prog2.c
-nano questions.txt
-clear
-cd ../
-mkdir practice
-cd practice
-nano dfs
-nano bfs
-nan odijska
-nano dijka
-nano dijksta
-logout
-ls
-clear
-ls
-git pull
-exit
-clear
-ls
-cd year2
-git pull
-ls
-clear
-ls
-nano oop
-ls
-cd oop
-ls
-clear
-ls
-clear
-ls
-./prog36
-nano prog36.cpp
-clear
-ls -al
-amek prog38
-make prog38
-make prog39
-clear
-nano prog32.cpp
-ls -al
-clear
-nano prog32.cpp
-nano prog44.cpp
-clear
-nano prog32.cpp
-nano prog37.cpp
-nano prog33.cpp
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-clear
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-./prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-y
-make prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-nano prog37.cpp
-make prog37
-./prog37
-clear
-nano prog44.cpp
-clear
-nano prog32.cpp
-clear
- ls
-nano prog49.cpp
-nano prog50.cpp
-g++ prog50.cpp -o prog50
-nano prog50.cpp
-g++ prog50.cpp -o prog50
-./prog50
-nano prog50.cpp
-g++ prog50.cpp -o prog50
-./prog50
-nano prog50.cpp
-g++ prog50.cpp -o prog50
-./prog50
-clear
-nano prog51.cpp
-nano prog37.cpp
-nano prog51.cpp
 make prog51
 clear
 nano prog51.cpp
@@ -918,3 +541,460 @@ cd year2
 cd dsa
 cd assignment1
 cat prog08.c
+ls
+cd year2
+ls
+clear
+ls
+cd year2
+ls
+cd dsa
+ls
+cd assignment2
+ls
+cat assignment.txt
+cd ../
+ls
+cd assignment1
+cat questions.txt
+cd ../
+cd assignment2
+ls
+cat assignment.txt
+./prog01
+./prog05
+clear
+./prog07
+clear
+./prog07
+cd ../
+cd assignment1
+ls
+cat questions.txt
+./prog03
+./prog04
+./prog07
+clear
+ls
+nano prog07.c
+clear
+ls
+clear
+cd year2
+ls
+cd dsa
+ls
+cd assignment2
+ls
+ls -l
+cd ../
+cd assignment1
+ls
+./prog5
+./prog05
+clear
+l
+ls
+cd ../
+./prog07
+cd assignment1
+./prog07
+clear
+ls
+nano prog05
+nano prog05.c
+./prog07
+clear
+cd ../
+cd assignment2
+ls
+clear
+nano prog5.c
+nano prog05.c
+ls
+./prog05
+nano prog05.c
+ls
+mv prog05.c tempprog05.c
+rm prog05.c
+nano prog05.c
+make prog05
+./prog05
+nano prog05.c
+make prog05
+./prog05
+nano prog05.c
+make prog05
+./prog05
+make prog05
+nano prog05.c
+clear
+make prog05
+./prog05
+nano prog05.c
+clear
+ls
+nano prog05.c
+make prog05
+./prog05
+nano prog05.c
+make prog05
+./prog05
+cd ../
+cd assignment1
+./prog8
+./prog08
+clear 
+cd ../
+cd assignment2
+clear
+git add .
+cd 
+git add ~
+git add --all
+git commit -m "done something"
+git push
+clear
+ls
+cd year2
+cd dsa
+cd assignment2
+ls
+clear
+ls
+cat assignment.txt
+ls
+clear
+git pull
+ls
+clear
+ls
+git pul
+git pull
+clear
+exit
+ls
+nano .gitignore
+ls
+git add --all
+git status
+git reset
+nano .gitignore
+ls
+git status
+git add --all
+ls
+git status
+git push
+exit
+ls
+cd year2
+ls
+cd oos
+mkdir oos
+cd oos
+ls
+nano assignment.txt
+ls
+cat assignment.txt
+ls
+nano q1.java
+make q1
+make q1.java
+ls
+javac q1.java
+nano q1.java
+javac q1.java
+nano q1.java
+javac q1.java
+nano q1.java
+javac q1.java
+nano q1.java
+javac q1.java
+java RoomDemo
+ls
+rm *.class
+ls
+nano q1.java
+java RoomDemo
+javac q1.java
+nano q1.java
+javac q1.java
+java RoomDemo
+rm *.class
+ls
+nano q2.java
+javac q2
+javac q2.java
+clear
+javac q2.java
+nano q2.java
+y
+javac q2.java
+nano q2.java
+javac q2.java
+nano q2.java
+javac q2.java
+nano q2.java
+y
+javac q2.java
+nano q1.java
+javac q2.java
+nano q2.java
+javac q2.java
+nano q2.java
+javac q2.java
+java student
+clear
+nano q2.java
+java student
+java student what
+javac q2
+javac q2.java
+java student
+java student what
+nano q2.java
+javac q2.java
+nano q2.java
+javac q2.java
+nano q2.java
+javac q2.java
+nano q2.java
+javac q2.java
+nano q2.java
+javac q2.java
+java student
+nano q3.java
+javac q3.java
+nano q3.java
+javac q3.java
+nano q3.java
+javac q3.java
+nano q3.java
+javac q3.java
+java student
+java Box
+nano q4.java
+ls
+rm *.class
+ls
+clear
+ls
+mkdir day1
+ls
+cd day1
+ls
+nano fibonnaci.java
+javac fibonnaci.java
+nano fibonnaci.java
+javac fibonnaci.java
+nano fibonnaci.java
+javac fibonnaci.java
+java fibonnaci
+java fibonnaci 23
+nano fibonnaci.java
+java fibonnaci 2
+nano fibonnaci.java
+javac fibonnaci.java
+java fibonnaci 3
+java fibonnaci 4
+java fibonnaci 5
+java fibonnaci 6
+java fibonnaci 10
+nano fibonnaci.java
+javac fibonnaci.java
+java fibonnaci 10
+nano fibonnaci.java
+javac fibonnaci.java
+java fibonnaci 10
+nano fibonnaci.java
+javac fibonnaci.java
+java fibonnaci 10
+nano fibonnaci.java
+java fibonnaci 10
+javac fibonnaci.java
+java fibonnaci 10
+nano fibonnaci.java
+java fibonnaci 10
+javac fibonnaci.java
+java fibonnaci 10
+nano sumfactors.java
+javac sumfactors.java
+nano sumfactors.java
+javac sumfactors.java
+java sumfactors
+java sumfactors 100
+nano reversenumber.java
+javac reversenumber.java
+nano reversenumber.java
+nano sumfactors.java
+javac sumfactors
+javac sumfactors.java
+java sumfactors 6
+java sumfactors 3
+clera
+clear
+ls
+cd ~
+ls
+nano .gitignore
+ls
+clear
+git add .
+git add --all
+ls
+git status
+clear
+ls
+cd year2
+cd oos
+ls
+cd day1
+ls
+nano reversenumber.java
+javac reversenumber.java
+nano reversenumber.java
+javac reversenumber.java
+java reversenumber 123
+nano reversenumber.java
+java reversenumber 123
+javac reversenumber.java
+nano reversenumber.java
+javac reversenumber.java
+nano reversenumber.java
+javac reversenumber.java
+nano reversenumber.java
+javac reversenumber.java
+java reversenumber 123
+nano reversenumber.java
+java reversenumber 123
+javac reversenumber.java
+nano reversenumber.java
+javac reversenumber.java
+nano reversenumber.java
+javac reversenumber.java
+java reversenumber 123
+clear
+nano pattern.java
+nano reversenumber.java
+y
+nano pattern.java
+javac pattern.java
+java pattern 4
+nano pattern.java
+javac pattern.java
+java pattern 4
+ls
+clear
+ls
+cd ../
+ls
+cd 
+ls
+git help
+git reset
+ls
+git status
+ls
+clear
+git statu
+git status
+ls
+nano .gitignore
+git add -all
+git add --all
+git status
+git reset
+nano .gitignore
+ls
+clera
+clear
+cd year2
+ls
+cd oos
+ls 
+cd day1
+ls
+nano pattern.java
+ls
+cd ../
+ls
+cat assignment.txt
+clear
+ls
+nano q4.java
+javac q4.java
+nano q4.java
+javac q4.java
+nano q4.java
+javac q4.java
+java stack
+nano q4.java
+cd day1
+ls
+clear
+ls
+cd year2
+ls
+mkdir se
+ls
+cd se
+ls
+man gdb
+ls
+gdb 
+clear
+ls
+cd ../
+ls
+cd se
+ls
+mkdir assign1
+ls
+cd assign1
+ls
+nano prog.cpp
+ls
+make prog
+g++ -g prog prog.cpp
+gdb -g prog prog.cpp
+gdb  prog prog.cpp
+g++ -g prog prog.cpp
+g++ -g prog  prog.cpp
+nano prog1.cpp
+nano prog.cpp
+ls
+nano prog
+nano prog.cpp
+make prog
+gcc -g prog.cpp -o prog
+nano prog.cpp
+./prog
+ls
+make prog
+./prog
+ls
+g++ -g prog.cpp -o prog
+gdb prog
+ls
+gdb prog
+g++ -g prog.cpp -o prog
+gdb prog
+./prog
+gdb prog
+g++ -g prog.cpp -o prog
+gdb prog
+nano file.py
+python file.py
+python3 file.py
+python3
+python file.py
+clear
+ls
+g++ -g prog.cpp
+gdb prog
+g++ -g prog.cpp -o prog
+gdb prog
+g++ -g prog.cpp -o prog
+gdb prog
+exit

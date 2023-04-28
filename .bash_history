@@ -1,211 +1,3 @@
-make prog51
-clear
-nano prog51.cpp
-make prog51
-nano prog51.cpp
-make prog51
-nano prog51.cpp
-make prog51
-nano prog51.cpp
-make prog51
-vim prog51.cpp
-make prog51
-vim prog51.cpp
-make prog51
-./prog51
-nano prog51.cpp
-make prog51
-./prog51
-clear
-nano prog52.cpp
-ls
-ls -al
-make prog56
-./prog56
-clear
-ls
-nano prog56.cpp
-nano prog51.cpp
-./prog51
-nano prog50.cpp
-g++ prog50.cpp -o prog50
-./prog50
-clear
-ls
-nano prog53.cpp
-g++ prog53.cpp -o prog53 -c
-nano prog53.cpp
-g++ prog53.cpp -o prog53 -c
-nano prog53.cpp
-nano prog33.cpp
-nano prog53.cpp
-g++ prog53.cpp -o prog53 -c
-nano prog53.cpp
-g++ prog53.cpp -o prog53 -c
-nano prog53.cpp
-g++ prog53.cpp -o prog53 -c
-nano prog53.cpp
-g++ prog53.cpp -o prog53 -c
-nano prog53.cpp
-nano prog33.cpp
-nano prog53.cpp
-g++ prog53.cpp -o prog53 -c
-nano prog53.cpp
-g++ prog53.cpp -o prog53 -c
-nano prog53.cpp
-g++ prog53.cpp -o prog53
-nano prog53.cpp
-g++ prog53.cpp -o prog53
-nano prog53.cpp
-g++ prog53.cpp -o prog53
-./prog53
-nano prog53.cpp
-g++ prog53.cpp -o prog53
-./prog53
-nano prog53.cpp
-g++ prog53.cpp -o prog53
-./prog53
-nano prog53.cpp
-g++ prog53.cpp -o prog53
-nano prog53.cpp
-./prog53
-clear
-nano prog54.cpp
-ls
-ls -al
-nano prog54.cpp
-nano prog57.cpp
-nano prog56.cpp
-cat prog56.cpp
-nano prog57.cpp
-clear
-exit
-clear
-cd year2
-cd oop
-ls
-nano prog57.cpp
-g++ prog57.cpp -o prog57
-nano prog57.cpp
-g++ prog57.cpp -o prog57
-./prog57
-clear
-nano prog57.cpp
-cd ~
-git add -all
-git add --all
-git commit -m "not done prog 49 32 "
-git push
-exit
-ls
-ls -al ../
-clear
-ls /
-ls -al /
-ls -al /usr/bin
-ls -al /
-pwd
-ls /home/usr
-ls /home/usr/faculty
-ls -al /home/usr/faculty
-nslookup google.com
-nslookup 8.8.8.8
-ping 8.8.8.8
-cd /etc
-ls
-ls -al |grep hosts
-cat hosts
-cat hosts.allow
-clear
-ls
-cat hosts.deny
-ls -al
-ls -al | grep r--. 
-ls -al | grep "r--." 
-clear
-ls -al | grep "r--." 
-cd ~
-ls
-clear
-git pull
-clear
-cd /etc
-ls
-cat resolv.conf
-ls | grep resolv
-cat resolv.conf
-exit
-ipconfig
-ip
-ip -a
-ip addr
-ip addr | grep dns
-ip addr | grep domain
-ip addr | grep do
-ip addr | grep d
-ip addr 
-ns
-ls
-ls -al /usr/faculty
-ls /
-ls /usr
-pwd
-ls -al /home/usr/faculty
-cd year2
-cd dsa
-cd assignment3
-ls
-cat prog4copy.c
-logout
-ls
-cd year2
-ls
-cd dsa
-ls
-cd assignment3
-ls
-logout
-cd year2
-cd dsa
-cd assignment3
-ls
-cat prog4
-cat prog4.c
-logout
-ls
-clear
-cd year2
-cd dsa
-cd assignment3
-ls
-rm prog_
-rm prog?
-ls
-make prog1
-make prog2
-make prog3
-make prog5
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-cat prog4
-clear
-cat prog4.c
-make prog1
-make prog2
-make prog3
-make prog4
-nano prog2
-nano prog2.cpp
-nano prog2.c
-make prog2
-./prog2
-./prog1
-./prog3
-clear
-ls
-./prog4
 clear
 ./prog4
 clear
@@ -998,3 +790,211 @@ gdb prog
 g++ -g prog.cpp -o prog
 gdb prog
 exit
+clear
+ls
+clear
+ls
+clear
+ls
+s
+clear
+ls
+clear
+ls
+git pull
+git pull 
+git status
+ls
+clear
+ls
+nslookup 
+nslookup
+nslookup github.com @8.8.8.8
+nslookup github.com 8.8.8.8
+git remote add-origin 
+git ermote add origin
+git remote add origin 
+git remote add origin https://https://20.207.73.82/AnimeshTalukdar/btech
+git remote add origin https://20.207.73.82/AnimeshTalukdar/btech
+git remote remove origin
+git rm origin
+ls
+cd year2
+ls
+vim file.pp
+clea
+git rm origin
+git commit -m "nothing
+"
+clear
+ls
+cd ../
+ls
+git stauts
+git status
+git remote
+git remote origin
+git status
+git pull
+git git remove -v
+git remote -v
+git pull
+git remote set-url origin git@20.207.73.82:AnimeshTalukdar/btech.git
+clear
+ls
+cd ../
+ls
+cd 
+ls
+rm *
+rm -rf *
+ls
+cd year
+cd year2
+ls
+cd oos
+ls
+cd ../
+ls
+ls 
+cd se
+ls
+vim file2.py
+clea
+clear
+ls
+rm file2.py
+ls
+cd 
+ls
+cd
+rm -rf *
+ls
+git clone https://github.com/AnimeshTalukdar/btech
+ls
+clea
+rls
+clear
+nslookup github.com 8.8.8.8
+git pull https://20.207.73.82/AnimeshTalukdar/btech
+git pull http://20.207.73.82/AnimeshTalukdar/btech
+git pull git:20.207.73.82:AnimeshTalukdar/btech.git
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+git pull
+ls -al
+ls
+ls -al
+clear
+ls -al
+git status
+git reset
+clear
+ls
+ls 
+ls -al
+ls
+git reset --hard
+ls
+clear
+ls
+cd year2
+ls
+cd oos
+ls
+git status
+cd 
+git commit -m "fixed"
+git status
+clear
+git push
+git status
+clear
+ls
+cd year2
+ls
+cd oos
+ls
+vim q7.java
+clear
+vim q8.java
+ls
+clear
+ls
+ls -al
+clear
+ls
+git pull
+ls
+clear
+ls
+git status
+cd .
+cd
+git add --all
+git status
+git commit -m "updated files"
+git push
+ls
+clea
+ls
+clear
+git status
+clear
+ls
+clear 
+cd year2
+ls
+cd oos
+ls
+vim q8.java
+;s
+ls
+cat assignment.txt
+vim q8.java
+clear
+ls
+nano q9.java
+javac q9.java
+nano q9.java
+vim q9.java
+javac q9.java
+vim q9.java
+javac q9.java
+vim q9.java
+javac q9.java
+clear
+javac q9.java
+vim q9.java
+javac q9.java
+vim q9.java
+javac q9.java
+vim q9.java
+javac q9.java
+vim q9.java
+javac q9.java
+java q9
+java Dept
+vim q9.java
+java Dept
+javac q9.java
+vim q9.java
+javac q9.java
+java Dept
+clear
+vim q10.java
+clear
+ls
+rm *.class
+ls
+vim q7.java
+clear
+ls
+vim q9.java
+vim q10.java

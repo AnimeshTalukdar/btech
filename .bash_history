@@ -1,32 +1,3 @@
-clear
-./prog4
-clear
-ls
-clear
-ls
-cd ../
-ls
-cd ../
-ls
-cd asm
-ls
-cd ../
-ls
-clear
-ls
-cd dsa
-ls
-cd assignment3
-ls
-./prog3
-cat questions.txt
-nano prog2
-./prog2
-nano prog2
-nano prog2.c
-make prog2
-./prog2
-clear
 make prog*
 make prog?
 clear
@@ -998,3 +969,32 @@ clear
 ls
 vim q9.java
 vim q10.java
+clear
+git add --all
+git status
+git commit -m "done prog 8 9 10/2"
+git status
+clear
+git push
+w
+clear
+ls
+cd year2
+ls
+cd oos
+ls 
+clear 
+ls
+vim q10.java
+ls
+clear
+ls
+vim q10.java
+clear
+ls
+clear
+ls
+vim q10.java
+clear
+ls
+exit

@@ -22,7 +22,6 @@ public static void main(String []args)
 int height=1,width=2,breath=3;
 System.out.println("Height= "+height+" Width= "+width+" Breath "+breath);
 Room ob = new Room(height,width,breath);
-
 System.out.println("Volume:"+ob.volume());
 }
 }

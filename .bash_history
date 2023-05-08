@@ -1,160 +1,3 @@
-make prog*
-make prog?
-clear
-make prog?
-rm prog?
-ls
-make prog?
-ls
-make prog?
-clear
-make prog1
-make prog2
-make prog3
-make prog4
-clear
-nano prog2.
-nano prog2.c
-clear
-ls
-make prog4
-./prog4
-make prog2
-./prog2
-clear
-ls
-nano prog4.cpp
-nano prog4.c
-cp prog4.c prog4co.c
-ls
-nano prog4.c
-ls
-nano prog4.c
-make prog4
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-make prog4
-./prog4
-make prog4
-./prog4
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-make prog4co
-./prog4
-nano prog4.c
-ls
-clear
-ls
-rm prog4.c
-cp prog4co.c prog4.c
-ls
-make prog4
-./prog4
-nano prog4.c
-make prog4
-nano prog4.c
-make prog4
-./prog4
-nano prog4.c
-y
-make prog4.c
-nano prog4.c
-make prog4
-./prog4
-nano prog4
-nano prog4.c
-make prog4
-nano prog4.c
-make prog4
-nano prog4.c
-make prog4
-./prog4
-exit
-ls
-git pull
-cd year2
-ls
-cd dsa 
-cd assignment3
-ls
-nano prog2.c
-ls
-cd year2
-ls
-vd dsa
-cd dsa
-ls
-cd assignment3
-ls
-cat prog1copy.c
-ls
-cat prog4.c
-clear
-ls
-cd year2
-ls
-cd ds
-dsa
-ls
-cd dsa
-ls
-cd assignment3
-ls
-nano prog1copy.c
-make prog1
-make prog1copy
-./prog1copy
-nano prog1copy.c
-make prog1copy
-./prog1copy
-./prog2
-./prog3
-clear
-ls
-cp prog1.c prog1co.c
-rm prog1.c
-cp prog1co.c prog1.c
-make prog1
-./prog1
-make prog1
-./prog1
-nano pgo1copy
-make prog1copy
-./prog1copy
-cp prog1copy.c prog1.c
-make prog1
-./prog1
-clear
-ls
-nano prog1.c
-make prog1
-./prog1
-make prog4
-./prog4
-make prog4
-./prog4
-clear
-cd ../
-ls
 cd assignment2
 ls
 ./prog01
@@ -998,3 +841,160 @@ vim q10.java
 clear
 ls
 exit
+ls
+clear
+ls
+clear
+cd year2
+ls
+cd ../
+ls
+clear
+git pull
+git status
+git pull
+clear
+ls
+ls -al
+cd .git
+ls
+ls -al
+cd objects
+ls
+ls -al
+ls --sort=size
+ls -al --sort=size
+ls
+clear
+ls
+cd ../
+ls
+cd branches
+ls
+la -al
+ls -al
+cd ../
+ls -sort=size
+ls --sort=size
+ls -al --sort=size
+cd index
+ls
+ls -al --sort=size
+cd index
+ls
+ls -al --sort=size
+cat index
+ls
+clear
+ls
+cat index
+ls
+ls -al
+ls -al --sort=size -h
+cd ../
+ls
+cd .git
+lws
+ls
+cd branches
+ls
+ls -al
+cd ../
+ls
+ls -al -h --sort=size
+rm index
+ls
+cd ../
+ls
+git pull
+ls 
+cat .gitignore
+ls
+cd year2
+ls
+cd ../
+ls
+ls -al
+ls
+rm year1cpnm
+ls
+rm -r year1cpnm
+ls
+clear
+rm year2
+rm -r year2
+ls
+git pull
+git status
+clear
+ls
+git status
+git reset
+ls
+clear
+ls 
+git reset --hard
+ls
+clear
+ls
+ls 
+clear
+cd year2
+ls
+cd ../
+ls
+clear
+cd year2
+ls
+cd oos
+ls
+clear
+ls 
+cd ../
+ls
+cd 
+clear
+git --cached
+vim
+clear
+nvim
+vim
+vim .vimrc
+vim file.txt
+clear
+ls
+clear
+cd year2
+ls
+cd se
+ls
+vim file.py
+ls
+clear assign1
+ls
+cd assign1
+ls
+clear
+ls
+clear
+ls
+vim prog.cpp
+cd
+ls
+clear
+vim .virc
+vim .vimrc
+cd year2
+ls
+cd se
+ls
+cd assign1
+ls
+vim prog.cpp
+logout 
+ls
+clear
+ls
+ls -al
+vim .vimrc
+clear

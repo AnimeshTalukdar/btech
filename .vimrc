@@ -1,4 +1,20 @@
 " Vim configuration file "
+" added by me 
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+"inoremap {<CR> {<CR><tab><left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+inoremap <silent> (<cr> (<cr>)<up><end><cr><tab>
+
+inoremap <silent> {<cr> {<cr>}<up><end><cr><tab>
+inoremap <silent> )<cr> )<cr><Del>
+
+
 
 " enable mouse support "
 set mouse=a
@@ -48,7 +64,6 @@ if !has('gui_running')
 	set t_Co=256
 endif
 " enable true colors support "
-set termguicolors
 " Vim colorscheme "
 colorscheme desert
 

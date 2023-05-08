@@ -6,18 +6,29 @@
 
 
 # hlsearch on (H) or off (h):
-~h
+~H
 # Last Search Pattern:
-~MSle0/solarized_termtrans=1 " put 
+~MSle0~/cr
 
 # Last Substitute Search Pattern:
-~MSle0~&solarized_termtrans=1 " put 
+~MSle0&solarized_termtrans=1 " put 
+
+# Last Substitute String:
+$
 
 # Command Line History (newest to oldest):
-:wq
-:q
 :q!
+:q
 :w
+:set autoindent
+:.!
+:set nu
+:set norelativenumber
+:set relativenumber
+:set relno
+:set nonu
+:Explore
+:wq
 :!q
 :x
 :h
@@ -27,6 +38,8 @@
 :set number
 
 # Search String History (newest to oldest):
+?/cr
+?/ino
 
 # Expression History (newest to oldest):
 
@@ -35,28 +48,122 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	inoremap <silent> (<cr> (<cr>)<up><end><cr><tab>
 ""1	LINE	0
+	int main():))
+"2	LINE	0
+	"
+"3	LINE	0
+	{}
+"4	LINE	0
+	i
+"5	LINE	0
+	set termguicolors
+"6	LINE	0
+	" ============================================================================
+	" Netrw Directory Listing                                        (netrw v149)
+	"   /home/usr/student/ug/yr21/be21149
+	"   Sorted by      name
+	"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+	" ============================================================================
+	../
+	./
+	.cache/
+	.config/
+	.file/
+	.git/
+	.mozilla/
+	.oracle_jre_usage/
+	.pki/
+	.ssh/
+	.vim/
+	year1cpnm/
+	year2/
+	.autopush*
+	.Xauthority
+	.bash_history
+	.bash_logout
+	.bash_profile
+	.bashrc
+	.gitconfig
+	.gitignore
+	.ifconfig.txt
+	.lesshst
+	.viminfo
+	.vimrc
+	.prog.swp
+	.swp
+"7	LINE	0
 	
+"-	CHAR	0
+	"
 
 # File marks:
-'0  22  0  ~/year2/oos/q1.java
-'1  1  0  ~/.vimrc
-'2  101  24  ~/.vimrc
-'3  201  0  ~/.vimrc
-'4  302  0  ~/.vimrc
-'5  52  0  ~/year2/oos/q10.java
-'6  44  1  ~/year2/oos/q10.java
-'7  40  0  ~/year2/oos/q10.java
-'8  1  0  ~/year2/oos/q10.java
-'9  76  0  ~/year2/oos/q9.java
+'0  5  0  ~/year2/se/Assignments/assign3/f.c
+'1  15  33  ~/.vimrc
+'2  6  0  ~/year2/se/Assignments/assign3/f.c
+'3  7  0  ~/year2/se/Assignments/assign3/f.c
+'4  1  9  ~/year2/se/Assignments/assign3/f.c
+'5  4  3  ~/year2/se/Assignments/assign3/file.c
+'6  1  0  ~/year2/se/Assignments/assign3/e.c
+'7  14  29  ~/.vimrc
+'8  17  1  ~/.vimrc
+'9  12  47  ~/.vimrc
 
 # Jumplist (newest first):
+-'  5  0  ~/year2/se/Assignments/assign3/f.c
+-'  1  0  ~/year2/se/Assignments/assign3/f.c
+-'  15  33  ~/.vimrc
+-'  6  0  ~/year2/se/Assignments/assign3/f.c
+-'  7  0  ~/year2/se/Assignments/assign3/f.c
+-'  4  3  ~/year2/se/Assignments/assign3/file.c
+-'  1  0  ~/year2/se/Assignments/assign3/file.c
+-'  14  0  ~/.vimrc
+-'  1  0  ~/year2/se/Assignments/assign3/e.c
+-'  17  0  ~/.vimrc
+-'  12  0  ~/.vimrc
+-'  23  1  ~/.vimrc
+-'  8  0  ~/.vimrc
+-'  9  11  ~/.vimrc
+-'  94  70  ~/.vimrc
+-'  93  81  ~/.vimrc
+-'  92  79  ~/.vimrc
+-'  91  45  ~/.vimrc
+-'  10  18  ~/.vimrc
+-'  7  12  ~/.vimrc
+-'  5  0  ~/.vimrc
+-'  7  0  ~/year2/se/Assignments/assign2/d.c
+-'  1  0  ~/year2/se/Assignments/assign2/d.c
+-'  6  1  ~/year2/se/file.py
+-'  1  0  ~/year2/se/file.py
+-'  1  0  ~/file.py
+-'  1  0  ~/year2/file.py
+-'  22  4  ~/year2/se/Assignments/assign2/d.c
+-'  24  4  ~/year2/se/Assignments/assign2/d.c
+-'  23  0  ~/year2/se/Assignments/assign2/d.c
+-'  25  9  ~/year2/se/Assignments/assign2/d.c
+-'  22  0  ~/year2/se/Assignments/assign1/a.c
+-'  1  0  ~/year2/se/Assignments/assign1/a.c
+-'  3  0  ~/.vimrc
+-'  72  2  ~/.vimrc
+-'  9  0  ~/year2/se/assign1/prog.cpp
+-'  10  1  ~/year2/se/assign1/prog.cpp
+-'  8  0  ~/year2/se/assign1/prog.cpp
+-'  1  0  ~/year2/se/assign1/prog.cpp
+-'  21  0  ~/.vimrc
+-'  69  0  ~/.vimrc
+-'  1  0  ~/.virc
+-'  20  1  ~/year2/se/assign1/prog.cpp
+-'  7  1  ~/year2/se/file.py
+-'  1  0  ~/file.txt
+-'  1  0  ~/.vimrc
 -'  22  0  ~/year2/oos/q1.java
 -'  1  0  ~/year2/oos/q1.java
--'  1  0  ~/.vimrc
--'  101  24  ~/.vimrc
--'  201  0  ~/.vimrc
--'  302  0  ~/.vimrc
+-'  118  24  ~/.vimrc
+-'  218  0  ~/.vimrc
+-'  319  0  ~/.vimrc
 -'  52  0  ~/year2/oos/q10.java
 -'  44  1  ~/year2/oos/q10.java
 -'  40  0  ~/year2/oos/q10.java
@@ -89,69 +196,180 @@
 -'  1  0  ~/year2/dsa/assignment2/prog01.c
 -'  65  11  ~/year2/dsa/assignment2/prog4.c
 -'  63  0  ~/year2/dsa/assignment2/prog4.c
--'  76  0  ~/year2/dsa/assignment2/prog4.c
--'  95  0  ~/year2/dsa/assignment2/prog4.c
--'  1  0  ~/year2/dsa/assignment2/prog4.c
--'  23  0  ~/year2/oop/prog27.cpp
--'  48  0  ~/year2/oop/prog27.cpp
--'  1  0  ~/year2/oop/prog27.cpp
--'  3  8  ~/.autopush
--'  1  0  ~/.autopush
--'  168  0  ~/year2/dsa/assignment1/prog07.cpp
--'  150  0  ~/year2/dsa/assignment1/prog07.cpp
--'  146  0  ~/year2/dsa/assignment1/prog07.cpp
--'  120  0  ~/year2/dsa/assignment1/prog07.cpp
--'  64  0  ~/year2/dsa/assignment1/prog07.cpp
--'  1  0  ~/year2/dsa/assignment1/prog07.cpp
--'  316  0  ~/prog
--'  1  0  ~/prog
--'  15  0  ~/year2/dsa/day1/prog1.c
--'  1  0  ~/year2/dsa/day1/prog1.c
--'  118  0  ~/year1cpnm/assignment1/programnull.c
--'  1  0  ~/year1cpnm/assignment1/programnull.c
--'  58  9  ~/year1cpnm/assignment1/program6.c
--'  107  0  ~/year1cpnm/assignment1/program6.c
--'  27  0  ~/year1cpnm/assignment1/program6.c
--'  117  0  ~/year1cpnm/assignment1/program6.c
--'  169  0  ~/year1cpnm/assignment1/program6.c
--'  176  0  ~/year1cpnm/assignment1/program6.c
--'  166  34  ~/year1cpnm/assignment1/program6.c
--'  179  0  ~/year1cpnm/assignment1/program6.c
--'  59  0  ~/year1cpnm/assignment1/program6.c
--'  1  0  ~/year1cpnm/assignment1/program6.c
--'  168  32  ~/year1cpnm/assignment1/program6.c
--'  175  0  ~/year1cpnm/assignment1/program6.c
--'  165  34  ~/year1cpnm/assignment1/program6.c
--'  178  0  ~/year1cpnm/assignment1/program6.c
--'  58  9  ~/year1cpnm/assignment1/program6.c
--'  107  0  ~/year1cpnm/assignment1/program6.c
--'  27  0  ~/year1cpnm/assignment1/program6.c
--'  117  0  ~/year1cpnm/assignment1/program6.c
--'  169  0  ~/year1cpnm/assignment1/program6.c
--'  176  0  ~/year1cpnm/assignment1/program6.c
--'  166  34  ~/year1cpnm/assignment1/program6.c
--'  179  0  ~/year1cpnm/assignment1/program6.c
--'  59  0  ~/year1cpnm/assignment1/program6.c
--'  1  0  ~/year1cpnm/assignment1/program6.c
--'  168  32  ~/year1cpnm/assignment1/program6.c
--'  175  0  ~/year1cpnm/assignment1/program6.c
--'  165  34  ~/year1cpnm/assignment1/program6.c
--'  178  0  ~/year1cpnm/assignment1/program6.c
--'  118  0  ~/year1cpnm/assignment1/programnull.c
--'  1  0  ~/year1cpnm/assignment1/programnull.c
--'  58  9  ~/year1cpnm/assignment1/program6.c
--'  107  0  ~/year1cpnm/assignment1/program6.c
--'  27  0  ~/year1cpnm/assignment1/program6.c
--'  117  0  ~/year1cpnm/assignment1/program6.c
--'  169  0  ~/year1cpnm/assignment1/program6.c
--'  176  0  ~/year1cpnm/assignment1/program6.c
--'  166  34  ~/year1cpnm/assignment1/program6.c
--'  179  0  ~/year1cpnm/assignment1/program6.c
--'  59  0  ~/year1cpnm/assignment1/program6.c
--'  1  0  ~/year1cpnm/assignment1/program6.c
--'  168  32  ~/year1cpnm/assignment1/program6.c
+-'  18  0  ~/.vimrc
+-'  89  70  ~/.vimrc
+-'  88  81  ~/.vimrc
+-'  87  79  ~/.vimrc
+-'  86  45  ~/.vimrc
+-'  7  0  ~/year2/se/Assignments/assign2/d.c
+-'  1  0  ~/year2/se/Assignments/assign2/d.c
+-'  6  1  ~/year2/se/file.py
+-'  1  0  ~/year2/se/file.py
+-'  1  0  ~/file.py
+-'  90  79  ~/.vimrc
+-'  7  0  ~/year2/se/Assignments/assign2/d.c
+-'  1  0  ~/year2/se/Assignments/assign2/d.c
+-'  6  1  ~/year2/se/file.py
+-'  20  1  ~/.vimrc
 
 # History of marks within files (newest to oldest):
+
+> ~/year2/se/Assignments/assign3/f.c
+	"	5	0
+	^	5	1
+	.	4	4
+	+	1	11
+	+	1	12
+	+	1	0
+	+	1	0
+	+	1	10
+	+	1	10
+	+	1	11
+	+	1	10
+	+	6	0
+	+	1	10
+	+	1	11
+	+	1	0
+	+	1	10
+	+	3	20
+	+	4	4
+
+> ~/.vimrc
+	"	15	33
+	^	15	34
+	.	15	33
+	+	319	2
+	+	219	0
+	+	218	0
+	+	118	2
+	+	69	0
+	+	2	14
+	+	21	0
+	+	3	0
+	+	21	0
+	+	21	0
+	+	21	0
+	+	21	0
+	+	21	0
+	+	5	18
+	+	4	13
+	+	10	28
+	+	72	0
+	+	3	1
+	+	4	1
+	+	5	0
+	+	6	0
+	+	7	0
+	+	9	0
+	+	10	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	9	0
+	+	10	0
+	+	7	19
+	+	8	19
+	+	23	0
+	+	23	1
+	+	23	3
+	+	23	0
+	+	23	0
+	+	8	23
+	+	23	1
+	+	23	0
+	+	8	24
+	+	23	1
+	+	23	1
+	+	23	0
+	+	19	0
+	+	12	47
+	+	17	1
+	+	17	0
+	+	13	1
+	+	13	1
+	+	13	0
+	+	15	0
+	+	16	0
+	+	8	1
+	+	14	0
+	+	15	0
+	+	15	0
+	+	14	29
+	+	15	33
+
+> ~/year2/se/Assignments/assign3/file.c
+	"	4	3
+	^	4	4
+	.	4	3
+	+	3	11
+	+	4	3
+
+> ~/year2/se/Assignments/assign3/e.c
+	"	1	0
+
+> ~/year2/se/Assignments/assign2/d.c
+	"	7	0
+	^	7	0
+	.	7	0
+	+	25	11
+	+	25	0
+	+	25	0
+	+	23	1
+	+	24	0
+	+	21	32
+	+	22	4
+	+	7	0
+
+> ~/year2/se/file.py
+	"	6	1
+	^	6	2
+	.	6	1
+	+	8	0
+	+	5	16
+	+	7	1
+	+	3	0
+	+	5	0
+	+	7	0
+	+	6	20
+	+	6	5
+	+	6	0
+	+	6	1
+
+> ~/file.py
+	"	1	0
+
+> ~/year2/file.py
+	"	1	0
+
+> ~/year2/se/Assignments/assign1/a.c
+	"	22	0
+	.	22	0
+	+	22	0
+
+> ~/year2/se/assign1/prog.cpp
+	"	9	0
+	.	10	0
+	+	20	1
+	+	20	0
+	+	19	1
+	+	20	1
+	+	10	0
+	+	9	1
+	+	8	10
+	+	8	11
+	+	8	11
+	+	10	0
+
+> ~/.virc
+	"	1	0
+
+> ~/file.txt
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
 
 > ~/year2/oos/q1.java
 	"	22	0
@@ -159,15 +377,6 @@
 	.	22	0
 	+	24	40
 	+	22	0
-
-> ~/.vimrc
-	"	1	0
-	^	101	25
-	.	101	2
-	+	302	2
-	+	202	0
-	+	201	0
-	+	101	2
 
 > /usr/share/vim/vim74/doc/help.txt
 	"	1	0
@@ -258,91 +467,3 @@
 	+	12	1
 	+	17	0
 	+	10	17
-
-> ~/year2/dsa/assignment3/prog4.c
-	"	307	21
-	^	307	22
-	.	307	21
-	+	59	5
-	+	4	14
-	+	61	1
-	+	58	5
-	+	80	5
-	+	79	9
-	+	307	21
-
-> ~/year2/dsa/assignment3/prog1.c
-	"	1	0
-	^	1	0
-
-> ~/year2/oop/prog43.cpp
-	"	47	10
-	^	47	11
-	.	47	11
-	+	47	11
-
-> ~/year2/dsa/assignment2/prog01.c
-	"	153	30
-	^	84	31
-	.	84	30
-	+	51	46
-	+	69	31
-	+	84	30
-
-> ~/year2/dsa/assignment2/prog4.c
-	"	65	11
-	^	65	12
-	.	65	11
-	+	94	8
-	+	95	1
-	+	76	5
-	+	81	7
-	+	82	0
-	+	63	6
-	+	65	11
-
-> ~/year2/oop/prog27.cpp
-	"	23	0
-
-> ~/.autopush
-	"	3	8
-	^	3	9
-	.	3	9
-	+	3	9
-
-> ~/year2/dsa/assignment1/prog07.cpp
-	"	168	0
-	^	168	1
-	.	152	1
-	+	150	1
-	+	162	1
-	+	152	1
-
-> ~/prog
-	"	316	0
-	^	316	1
-	.	316	0
-	+	316	0
-
-> ~/year2/dsa/day1/prog1.c
-	"	15	0
-
-> ~/year1cpnm/assignment1/programnull.c
-	"	118	0
-	^	118	12
-	.	118	11
-	+	108	12
-	+	118	11
-
-> ~/year1cpnm/assignment1/program6.c
-	"	58	9
-	^	117	17
-	.	58	8
-	+	59	5
-	+	166	34
-	+	176	1
-	+	169	32
-	+	118	0
-	+	117	16
-	+	107	14
-	+	58	8

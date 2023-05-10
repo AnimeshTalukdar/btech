@@ -1,21 +1,33 @@
 " Vim configuration file "
-" added by me 
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
+" added by me
+"inoremap " ""<left>
+"inoremap ' ''<left>
+"inoremap ( ()<left>
+"inoremap [ []<left>
 inoremap { {}<left>
 "inoremap {<CR> {<CR><tab><left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
-inoremap <silent> (<cr> (<cr>)<up><end><cr><tab>
+"inoremap <silent> (<cr> (<cr>)<up><end><cr><tab>
 
 inoremap <silent> {<cr> {<cr>}<up><end><cr><tab>
-inoremap <silent> )<cr> )<cr><Del>
 
 
 
+
+
+
+autocmd FileType java map @b :!javac %; java `basename % .java`<CR>
+autocmd FileType python map <buffer> @b :w<CR>:exec '!python' shellescape(@%, 1)<CR>
+autocmd FileType cpp map <buffer> @b :w<cr>:exec '!g++ -std=c++17 -O3' shellescape(@%, 1)<cr><cr>:!./a.out<cr>
+
+autocmd FileType c map <buffer> @b :w<cr>:exec '!g++ -std=c++17 -O3' shellescape(@%, 1)<cr><cr>:!./a.out<cr>
+
+
+" inoremap <silent> )<cr> )<cr><Del>
+"autocmd FileType python map <buffer> <@b> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd filetype python inoremap :<cr> :<cr><tab>
 " enable mouse support "
 set mouse=a
 
@@ -46,7 +58,7 @@ set smartcase
 set tabstop	=4
 set softtabstop	=4
 set shiftwidth	=4
-set textwidth	=79
+"set textwidth	=79
 set expandtab
 set autoindent
 

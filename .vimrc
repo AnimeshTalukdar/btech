@@ -1,3 +1,6 @@
+
+
+let mapleader = "\<Space>"
 " Vim configuration file "
 " added by me
 "inoremap " ""<left>
@@ -8,18 +11,54 @@ inoremap { {}<left>
 "inoremap {<CR> {<CR><tab><left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
-
 "inoremap <silent> (<cr> (<cr>)<up><end><cr><tab>
 
 inoremap <silent> {<cr> {<cr>}<up><end><cr><tab>
 
+map <C-n> :Vexplore<CR>
+
+inoremap <silent> <C-h> <left>
+inoremap <silent> <C-j> <down>
+inoremap <silent> <C-k> <up>
+inoremap <silent> <C-l> <right>
+
+map <leader>x <C-w>q
 
 
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
+autocmd FileType netrw nnoremap <buffer> <C-h> <C-w>h
+autocmd FileType netrw nnoremap <buffer> <C-j> <C-w>j
+autocmd FileType netrw nnoremap <buffer> <C-k> <C-w>k
+autocmd FileType netrw nnoremap <buffer> <C-l> <C-w>l
+autocmd FileType netrw nnoremap <buffer> <C-n> <C-w>q
+
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+
+nnoremap <leader>fw :!grep -r ""<left>
+nnoremap <leader>ff :!find . -name "**"<left><left>
+
+" Set cursor shape to block in normal mode
+" augroup CursorShape
+    " autocmd!
+    " autocmd InsertEnter * set guicursor=n-v-c:block-Cursor/lCursor
+    " autocmd InsertLeave * set guicursor=n-v-c:ver25-Cursor/lCursor
+" augroup END
+
+
+" if has("gui_running")
+"   " Set cursor shape to block in normal mode
+"   let &t_ve = "\<Esc>[34h"
+"   let &t_vi = "\<Esc>[34l"
+" endif
 
 
 autocmd FileType java map @b :!javac %; java `basename % .java`<CR>
-autocmd FileType python map <buffer> @b :w<CR>:exec '!python' shellescape(@%, 1)<CR>
+autocmd FileType python map <buffer> @b :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType cpp map <buffer> @b :w<cr>:exec '!g++ -std=c++17 -O3' shellescape(@%, 1)<cr><cr>:!./a.out<cr>
 
 autocmd FileType c map <buffer> @b :w<cr>:exec '!g++ -std=c++17 -O3' shellescape(@%, 1)<cr><cr>:!./a.out<cr>
@@ -38,8 +77,8 @@ syntax on
 set number
 
 " highlight current line "
-set cursorline
-:highlight Cursorline cterm=bold ctermbg=black
+" set cursorline
+" :highlight Cursorline cterm=bold ctermbg=black
 
 " enable highlight search pattern "
 set hlsearch

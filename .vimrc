@@ -1,5 +1,4 @@
 
-
 let mapleader = "\<Space>"
 " Vim configuration file "
 " added by me
@@ -41,6 +40,21 @@ autocmd InsertLeave * set nocul
 
 nnoremap <leader>fw :!grep -r ""<left>
 nnoremap <leader>ff :!find . -name "**"<left><left>
+nnoremap <leader>n :set invnu<CR>
+nnoremap <leader>rn :rset invrnu<CR>
+nnoremap <C-c> gg"+yG
+
+
+
+
+
+"use system clipboard 
+" copy and paste
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <ESC>"+pa
+
 
 " Set cursor shape to block in normal mode
 " augroup CursorShape
@@ -141,3 +155,4 @@ colorscheme desert
 "            nnoremap <F2> :! bibtex $(echo % \| sed 's/.tex$//') & disown<CR><CR>
 "            nnoremap <F3> :! evince $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
 "            nnoremap <F4> :! rm *.log *.aux *.out *.blg & disown<CR><CR>
+

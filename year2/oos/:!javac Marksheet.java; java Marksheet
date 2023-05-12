@@ -1,0 +1,47 @@
+import java.lang.Math;
+import java.util.HashMap;
+class Student{
+    String name;
+    int roll_no;
+    String subject_name[] = {"Phy","che","bio","math","eng"};
+    Student(String name,int roll_no){
+        this.name = name;
+        this.roll_no = roll_no;
+    }
+    Student(){
+        this.name = "";
+        this.roll_no =(int) Math.random()*100; 
+    }
+    int get_roll_no(){
+        return roll_no;
+    }
+    String get_name(){
+        return this.name;
+    }
+}
+
+class TabulationSheet{
+    String subject_name;
+    HashMap<Integer,Integer> marks;
+    TabulationSheet(String subject_name){
+        this.subject_name = subject_name;
+        marks = new HashMap<Integer,Integer>();
+    }
+    void insert_marks(int roll_no,int marks){
+        this.marks.put(roll_no, marks);
+    }
+
+    int get_marks(int roll_no){
+        return this.marks.get(roll_no);
+    }
+    String get_subject_name(){
+        return this.subject_name;
+    }
+}
+
+public class Marksheet{
+    public static void main(String []args){
+        System.out.println("name");
+    }
+}
+

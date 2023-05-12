@@ -71,7 +71,7 @@ imap <C-v> <ESC>"+pa
 " endif
 
 
-autocmd FileType java map @b :!javac %; java `basename % .java`<CR>
+autocmd FileType java map @b :w<cr> :!javac %; java `basename % .java`<CR>
 autocmd FileType python map <buffer> @b :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType cpp map <buffer> @b :w<cr>:exec '!g++ -std=c++17 -O3' shellescape(@%, 1)<cr><cr>:!./a.out<cr>
 
@@ -80,7 +80,7 @@ autocmd FileType c map <buffer> @b :w<cr>:exec '!g++ -std=c++17 -O3' shellescape
 
 " inoremap <silent> )<cr> )<cr><Del>
 "autocmd FileType python map <buffer> <@b> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
-autocmd filetype python inoremap :<cr> :<cr><tab>
+autocmd Filetype python inoremap :<cr> :<cr><tab>
 " enable mouse support "
 set mouse=a
 

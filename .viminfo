@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/cr
+~MSle0~/python
 
 # Last Substitute Search Pattern:
 ~MSle0&solarized_termtrans=1 " put 
@@ -17,9 +17,15 @@
 $
 
 # Command Line History (newest to oldest):
-:q!
 :q
 :w
+:qa
+:wq
+:q!
+:qall
+:x
+:Explore
+:'<,'>w
 :set autoindent
 :.!
 :set nu
@@ -27,10 +33,7 @@ $
 :set relativenumber
 :set relno
 :set nonu
-:Explore
-:wq
 :!q
-:x
 :h
 :n
 :!quit
@@ -38,6 +41,9 @@ $
 :set number
 
 # Search String History (newest to oldest):
+?/python
+?/autocmd
+?/@b
 ?/cr
 ?/ino
 
@@ -49,73 +55,102 @@ $
 
 # Registers:
 "0	LINE	0
-	inoremap <silent> (<cr> (<cr>)<up><end><cr><tab>
-""1	LINE	0
-	int main():))
+	        System.out.println();
+"1	CHAR	0
+	void print_details(){
+	            System.out.println("Account Type: " + "Current Account");
+	            super.print_details();
+	        
 "2	LINE	0
-	"
+	    double interestRate;
 "3	LINE	0
-	{}
+	12 Manager
 "4	LINE	0
-	i
+	12 Manager10 Marksheet
 "5	LINE	0
-	set termguicolors
+	12 Manager10 Marksheet
 "6	LINE	0
-	" ============================================================================
-	" Netrw Directory Listing                                        (netrw v149)
-	"   /home/usr/student/ug/yr21/be21149
-	"   Sorted by      name
-	"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
-	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
-	" ============================================================================
-	../
-	./
-	.cache/
-	.config/
-	.file/
-	.git/
-	.mozilla/
-	.oracle_jre_usage/
-	.pki/
-	.ssh/
-	.vim/
-	year1cpnm/
-	year2/
-	.autopush*
-	.Xauthority
-	.bash_history
-	.bash_logout
-	.bash_profile
-	.bashrc
-	.gitconfig
-	.gitignore
-	.ifconfig.txt
-	.lesshst
-	.viminfo
-	.vimrc
-	.prog.swp
-	.swp
+	12 Manager10 Marksheet
 "7	LINE	0
-	
-"-	CHAR	0
-	"
+	12 Manager10 Marksheet
+"8	LINE	0
+	12 Manager10 Marksheet
+"9	LINE	0
+	12 Manager10 Marksheet
+""-	CHAR	0
+	int 
 
 # File marks:
-'0  5  0  ~/year2/se/Assignments/assign3/f.c
-'1  15  33  ~/.vimrc
-'2  6  0  ~/year2/se/Assignments/assign3/f.c
-'3  7  0  ~/year2/se/Assignments/assign3/f.c
-'4  1  9  ~/year2/se/Assignments/assign3/f.c
-'5  4  3  ~/year2/se/Assignments/assign3/file.c
-'6  1  0  ~/year2/se/Assignments/assign3/e.c
-'7  14  29  ~/.vimrc
-'8  17  1  ~/.vimrc
-'9  12  47  ~/.vimrc
+'0  27  0  ~/year2/oos/q13.java
+'1  94  27  ~/year2/oos/Manager.java
+'2  2  0  ~/year2/oos/questionno_to_filename.txt
+'3  2  16  ~/year2/oos/Library.java
+'4  1  0  ~/year2/oos/q11.java
+'5  19  17  ~/year2/oos/q7.java
+'6  49  0  ~/year2/oos/q6.java
+'7  72  9  ~/year2/oos/Marksheet.java
+'8  74  34  ~/.vimrc
+'9  78  0  ~/year2/oos/Marksheet.java
 
 # Jumplist (newest first):
+-'  27  0  ~/year2/oos/q13.java
+-'  5  0  ~/year2/oos/q13.java
+-'  1  0  ~/year2/oos/q13.java
+-'  94  27  ~/year2/oos/Manager.java
+-'  1  24  ~/year2/oos/Manager.java
+-'  70  14  ~/year2/oos/Manager.java
+-'  38  54  ~/year2/oos/Manager.java
+-'  10  13  ~/year2/oos/Manager.java
+-'  2  0  ~/year2/oos/questionno_to_filename.txt
+-'  1  0  ~/year2/oos/questionno_to_filename.txt
+-'  2  16  ~/year2/oos/Library.java
+-'  1  0  ~/year2/oos/Library.java
+-'  1  0  ~/year2/oos/q11.java
+-'  19  17  ~/year2/oos/q7.java
+-'  1  0  ~/year2/oos/q7.java
+-'  49  0  ~/year2/oos/q6.java
+-'  1  0  ~/year2/oos/q6.java
+-'  72  9  ~/year2/oos/Marksheet.java
+-'  69  20  ~/year2/oos/Marksheet.java
+-'  71  25  ~/year2/oos/Marksheet.java
+-'  70  25  ~/year2/oos/Marksheet.java
+-'  73  19  ~/year2/oos/Marksheet.java
+-'  68  7  ~/year2/oos/Marksheet.java
+-'  42  22  ~/year2/oos/Marksheet.java
+-'  78  0  ~/year2/oos/Marksheet.java
+-'  74  34  ~/.vimrc
+-'  19  8  ~/year2/oos/Marksheet.java
+-'  28  8  ~/year2/oos/Marksheet.java
+-'  22  0  ~/year2/oos/Marksheet.java
+-'  23  25  ~/year2/oos/Marksheet.java
+-'  14  5  ~/year2/oos/Marksheet.java
+-'  7  6  ~/year2/oos/Marksheet.java
+-'  3  0  ~/year2/oos/Marksheet.java
+-'  4  4  ~/year2/oos/Marksheet.java
+-'  5  4  ~/year2/oos/Marksheet.java
+-'  6  4  ~/year2/oos/Marksheet.java
+-'  21  0  ~/year2/oos/Marksheet.java
+-'  41  0  ~/year2/oos/Marksheet.java
+-'  77  0  ~/year2/oos/Marksheet.java
+-'  1  0  ~/year2/oos/Marksheet
+-'  83  8  ~/.vimrc
+-'  126  0  ~/.vimrc
+-'  82  57  ~/.vimrc
+-'  75  54  ~/.vimrc
+-'  121  34  ~/.vimrc
+-'  76  17  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  12  0  ~/year2/se/Assignments/assign4
+-'  1  0  ~/temp.ff
+-'  12  23  ~/.bashrc
+-'  14  0  ~/.bashrc
+-'  92  0  ~/.vimrc
+-'  43  0  ~/.vimrc
+-'  15  0  ~/.vimrc
+-'  1  0  ~/year2/dsa/assignment1/prog07.c
+-'  1  0  ~/.bashrc
 -'  5  0  ~/year2/se/Assignments/assign3/f.c
 -'  1  0  ~/year2/se/Assignments/assign3/f.c
--'  15  33  ~/.vimrc
 -'  6  0  ~/year2/se/Assignments/assign3/f.c
 -'  7  0  ~/year2/se/Assignments/assign3/f.c
 -'  4  3  ~/year2/se/Assignments/assign3/file.c
@@ -127,10 +162,9 @@ $
 -'  23  1  ~/.vimrc
 -'  8  0  ~/.vimrc
 -'  9  11  ~/.vimrc
--'  94  70  ~/.vimrc
--'  93  81  ~/.vimrc
--'  92  79  ~/.vimrc
--'  91  45  ~/.vimrc
+-'  93  70  ~/.vimrc
+-'  91  79  ~/.vimrc
+-'  90  45  ~/.vimrc
 -'  10  18  ~/.vimrc
 -'  7  12  ~/.vimrc
 -'  5  0  ~/.vimrc
@@ -147,102 +181,249 @@ $
 -'  22  0  ~/year2/se/Assignments/assign1/a.c
 -'  1  0  ~/year2/se/Assignments/assign1/a.c
 -'  3  0  ~/.vimrc
--'  72  2  ~/.vimrc
+-'  71  2  ~/.vimrc
 -'  9  0  ~/year2/se/assign1/prog.cpp
 -'  10  1  ~/year2/se/assign1/prog.cpp
 -'  8  0  ~/year2/se/assign1/prog.cpp
 -'  1  0  ~/year2/se/assign1/prog.cpp
 -'  21  0  ~/.vimrc
--'  69  0  ~/.vimrc
+-'  68  0  ~/.vimrc
 -'  1  0  ~/.virc
 -'  20  1  ~/year2/se/assign1/prog.cpp
 -'  7  1  ~/year2/se/file.py
 -'  1  0  ~/file.txt
--'  1  0  ~/.vimrc
--'  22  0  ~/year2/oos/q1.java
--'  1  0  ~/year2/oos/q1.java
--'  118  24  ~/.vimrc
--'  218  0  ~/.vimrc
--'  319  0  ~/.vimrc
--'  52  0  ~/year2/oos/q10.java
--'  44  1  ~/year2/oos/q10.java
--'  40  0  ~/year2/oos/q10.java
--'  1  0  ~/year2/oos/q10.java
--'  76  0  ~/year2/oos/q9.java
--'  78  0  ~/year2/oos/q7.java
--'  1  0  ~/year2/oos/q7.java
--'  72  0  ~/year2/oos/q9.java
--'  79  0  ~/year2/oos/q9.java
--'  38  0  ~/year2/oos/q9.java
--'  65  0  ~/year2/oos/q9.java
--'  1  0  ~/year2/oos/q9.java
--'  111  0  ~/year2/oos/q8.java
--'  1  0  ~/year2/oos/q8.java
--'  220  0  ~/year2/oos/q8.java
--'  38  6  ~/year2/oop/prog51.cpp
--'  42  0  ~/year2/oop/prog51.cpp
--'  1  0  ~/year2/oop/prog51.cpp
--'  10  16  ~/year2/oop/prog44.cpp
--'  1  0  ~/year2/oop/prog44.cpp
--'  307  21  ~/year2/dsa/assignment3/prog4.c
--'  79  0  ~/year2/dsa/assignment3/prog4.c
--'  58  0  ~/year2/dsa/assignment3/prog4.c
--'  61  0  ~/year2/dsa/assignment3/prog4.c
--'  1  0  ~/year2/dsa/assignment3/prog4.c
--'  1  0  ~/year2/dsa/assignment3/prog1.c
--'  47  10  ~/year2/oop/prog43.cpp
--'  1  0  ~/year2/oop/prog43.cpp
--'  153  30  ~/year2/dsa/assignment2/prog01.c
--'  1  0  ~/year2/dsa/assignment2/prog01.c
--'  65  11  ~/year2/dsa/assignment2/prog4.c
--'  63  0  ~/year2/dsa/assignment2/prog4.c
--'  18  0  ~/.vimrc
--'  89  70  ~/.vimrc
--'  88  81  ~/.vimrc
--'  87  79  ~/.vimrc
--'  86  45  ~/.vimrc
--'  7  0  ~/year2/se/Assignments/assign2/d.c
--'  1  0  ~/year2/se/Assignments/assign2/d.c
--'  6  1  ~/year2/se/file.py
--'  1  0  ~/year2/se/file.py
--'  1  0  ~/file.py
--'  90  79  ~/.vimrc
--'  7  0  ~/year2/se/Assignments/assign2/d.c
--'  1  0  ~/year2/se/Assignments/assign2/d.c
--'  6  1  ~/year2/se/file.py
--'  20  1  ~/.vimrc
 
 # History of marks within files (newest to oldest):
 
-> ~/year2/se/Assignments/assign3/f.c
-	"	5	0
-	^	5	1
-	.	4	4
-	+	1	11
-	+	1	12
+> ~/year2/oos/q13.java
+	"	27	0
+	^	30	28
+	.	30	27
+	+	3	7
+	+	5	1
+	+	9	12
+	+	12	18
+	+	17	21
+	+	21	27
+	+	24	1
+	+	23	25
+	+	26	3
+	+	25	32
+	+	32	0
+	+	30	27
+
+> ~/year2/oos/Manager.java
+	"	94	27
+	^	94	27
+	.	94	26
+	+	9	19
+	+	10	0
+	+	11	27
+	+	12	28
+	+	15	25
+	+	4	9
+	+	18	22
+	+	21	29
+	+	28	0
+	+	30	19
+	+	36	3
+	+	46	40
+	+	37	14
+	+	36	9
+	+	37	38
+	+	33	17
+	+	32	68
+	+	34	38
+	+	36	0
+	+	30	40
+	+	31	0
+	+	31	0
+	+	46	41
+	+	47	0
+	+	47	51
+	+	48	27
+	+	60	74
+	+	59	75
+	+	61	16
+	+	66	5
+	+	98	0
+	+	65	16
+	+	66	5
+	+	68	7
+	+	38	0
+	+	22	5
+	+	26	55
+	+	68	35
+	+	20	8
+	+	68	36
+	+	42	60
+	+	68	36
+	+	70	14
+	+	1	24
+	+	96	8
+	+	68	43
+	+	75	35
+	+	74	75
+	+	83	15
+	+	90	12
+	+	76	66
+	+	81	0
+	+	85	54
+	+	88	51
+	+	92	47
+	+	92	47
+	+	43	75
+	+	99	1
+	+	40	64
+	+	49	29
+	+	49	41
+	+	49	24
+	+	50	5
+	+	49	8
+	+	54	3
+	+	53	8
+	+	52	8
+	+	59	66
+	+	79	25
+	+	94	14
+	+	94	26
+
+> ~/year2/oos/questionno_to_filename.txt
+	"	2	0
+	.	2	9
 	+	1	0
-	+	1	0
-	+	1	10
-	+	1	10
-	+	1	11
-	+	1	10
-	+	6	0
-	+	1	10
-	+	1	11
-	+	1	0
-	+	1	10
-	+	3	20
-	+	4	4
+	+	3	0
+	+	2	9
+
+> ~/year2/oos/Library.java
+	"	2	16
+	^	2	17
+	.	2	17
+	+	2	17
+
+> ~/year2/oos/q11.java
+	"	1	0
+
+> ~/year2/oos/q7.java
+	"	19	17
+
+> ~/year2/oos/q6.java
+	"	49	0
+
+> ~/year2/oos/Marksheet.java
+	"	72	9
+	^	72	25
+	.	72	24
+	+	23	0
+	+	10	5
+	+	14	5
+	+	7	0
+	+	13	22
+	+	3	14
+	+	1	21
+	+	13	45
+	+	14	5
+	+	6	22
+	+	1	22
+	+	2	23
+	+	23	22
+	+	26	40
+	+	26	48
+	+	26	41
+	+	26	41
+	+	27	40
+	+	24	24
+	+	25	26
+	+	27	40
+	+	28	38
+	+	31	35
+	+	34	17
+	+	30	20
+	+	34	32
+	+	35	7
+	+	36	5
+	+	35	34
+	+	34	7
+	+	2	14
+	+	31	0
+	+	33	0
+	+	31	38
+	+	35	38
+	+	25	26
+	+	28	43
+	+	38	32
+	+	33	0
+	+	16	22
+	+	19	24
+	+	18	10
+	+	68	7
+	+	42	0
+	+	46	26
+	+	43	22
+	+	46	46
+	+	43	23
+	+	46	16
+	+	48	51
+	+	47	31
+	+	49	7
+	+	48	11
+	+	45	39
+	+	43	26
+	+	43	4
+	+	44	22
+	+	68	38
+	+	45	60
+	+	50	3
+	+	52	7
+	+	44	41
+	+	51	7
+	+	52	18
+	+	44	21
+	+	56	24
+	+	52	50
+	+	54	63
+	+	52	23
+	+	60	28
+	+	65	0
+	+	65	0
+	+	65	0
+	+	65	0
+	+	65	0
+	+	65	0
+	+	60	47
+	+	65	0
+	+	63	89
+	+	61	48
+	+	67	0
+	+	70	39
+	+	71	39
+	+	72	39
+	+	75	20
+	+	73	0
+	+	70	26
+	+	71	26
+	+	72	25
+	+	71	25
+	+	72	0
+	+	70	28
+	+	71	28
+	+	72	29
+	+	69	0
+	+	70	0
+	+	69	32
+	+	70	25
+	+	71	24
+	+	72	24
 
 > ~/.vimrc
-	"	15	33
-	^	15	34
-	.	15	33
-	+	319	2
-	+	219	0
+	"	74	34
+	^	74	35
+	.	74	34
+	+	318	2
 	+	218	0
-	+	118	2
-	+	69	0
+	+	217	0
+	+	117	2
+	+	68	0
 	+	2	14
 	+	21	0
 	+	3	0
@@ -254,7 +435,7 @@ $
 	+	5	18
 	+	4	13
 	+	10	28
-	+	72	0
+	+	71	0
 	+	3	1
 	+	4	1
 	+	5	0
@@ -298,6 +479,46 @@ $
 	+	15	0
 	+	14	29
 	+	15	33
+	+	44	0
+	+	83	8
+	+	74	34
+
+> ~/year2/oos/Marksheet
+	"	1	0
+
+> ~/temp.ff
+	"	1	0
+
+> ~/.bashrc
+	"	12	23
+	^	12	27
+	.	12	26
+	+	14	0
+	+	13	0
+	+	12	26
+
+> ~/year2/dsa/assignment1/prog07.c
+	"	1	0
+
+> ~/year2/se/Assignments/assign3/f.c
+	"	5	0
+	^	5	1
+	.	4	4
+	+	1	11
+	+	1	12
+	+	1	0
+	+	1	0
+	+	1	10
+	+	1	10
+	+	1	11
+	+	1	10
+	+	6	0
+	+	1	10
+	+	1	11
+	+	1	0
+	+	1	10
+	+	3	20
+	+	4	4
 
 > ~/year2/se/Assignments/assign3/file.c
 	"	4	3
@@ -342,128 +563,3 @@ $
 
 > ~/year2/file.py
 	"	1	0
-
-> ~/year2/se/Assignments/assign1/a.c
-	"	22	0
-	.	22	0
-	+	22	0
-
-> ~/year2/se/assign1/prog.cpp
-	"	9	0
-	.	10	0
-	+	20	1
-	+	20	0
-	+	19	1
-	+	20	1
-	+	10	0
-	+	9	1
-	+	8	10
-	+	8	11
-	+	8	11
-	+	10	0
-
-> ~/.virc
-	"	1	0
-
-> ~/file.txt
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> ~/year2/oos/q1.java
-	"	22	0
-	^	22	0
-	.	22	0
-	+	24	40
-	+	22	0
-
-> /usr/share/vim/vim74/doc/help.txt
-	"	1	0
-
-> ~/year2/oos/q10.java
-	"	52	0
-	^	52	0
-	.	51	0
-	+	4	0
-	+	5	12
-	+	8	0
-	+	7	7
-	+	10	17
-	+	12	24
-	+	15	9
-	+	40	0
-	+	21	3
-	+	40	0
-	+	39	0
-	+	40	1
-	+	1	14
-	+	43	0
-	+	41	0
-	+	49	0
-	+	55	0
-	+	49	0
-	+	54	0
-	+	49	12
-	+	51	0
-
-> ~/year2/oos/q9.java
-	"	76	0
-	^	76	29
-	.	76	28
-	+	65	37
-	+	69	0
-	+	71	0
-	+	36	34
-	+	38	24
-	+	71	75
-	+	72	41
-	+	73	41
-	+	75	1
-	+	61	9
-	+	78	0
-	+	76	55
-	+	38	21
-	+	71	4
-	+	72	25
-	+	73	20
-	+	74	20
-	+	72	0
-	+	76	28
-
-> ~/year2/oos/q7.java
-	"	78	0
-
-> ~/year2/oos/q8.java
-	"	111	0
-	^	111	0
-	.	110	1
-	+	1	19
-	+	112	11
-	+	112	24
-	+	113	19
-	+	219	1
-	+	3	0
-	+	110	1
-
-> ~/year2/oop/prog51.cpp
-	"	38	6
-	^	38	7
-	.	38	6
-	+	18	5
-	+	29	8
-	+	31	0
-	+	42	8
-	+	40	0
-	+	38	6
-
-> ~/year2/oop/prog44.cpp
-	"	10	16
-	^	10	17
-	.	10	17
-	+	11	1
-	+	14	0
-	+	8	1
-	+	12	1
-	+	17	0
-	+	10	17

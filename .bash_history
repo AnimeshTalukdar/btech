@@ -1,224 +1,3 @@
-cd assignment2
-ls
-./prog01
-./prog02
-clear
-ls
-cat assignment.txt
-clear
-cd ../
-ls
-cd assignment1
-ls
-cat questoins 
-cat questions
-cat "questions set1.txt"
-mv "questios set1.txt" questoins.txt
-mv "questions set1.txt" questoins.txt
-ls
-cat questions.txt
-mv questoins.txt questions.txt
-cat questions.txt
-clear
-cd ../
-cd assignment3
-ls
-cd ../
-ls
-cd assignment2
-ls
-cd ../
-ls
-cd assignment1
-ls
-clear
-ls
-clear
-cd assignment2
-ls
-cd ../
-cd assignment2
-ls
-./prog1
-./prog01
-clear
-cleara
-clear 
-exit
-ssh be21149@172.16.4.112
-exit
-ls
-clear
-ls 
-cd year2
-ls
-cd ~
-git add .
-git add -all
-git add --all
-git commit -m "6th feb"
-git push
-clear
-ls
-exit
-git pull
-lsc
-ls
-clear
-ls 
-cd year2
-ls
-cd dsa
-ls
-cd assignment1
-ls
-rm prog0?
-ls
-make prog01
-make prog02
-make prog03
-make prog04
-g++ prog04
-gcc prog04
-gcc prog04.c
-cc prog04.c -o prog04 -lm
-make prog05
-make prog06
-make prog07
-make prog08
-make prog09
-clear
-ls
-./prog01
-./prog02
-2
-./prog03
-3
-clear
-cd ../
-cd assignment2
-ls
-rm tempCodeRunnerFile.c
-ls
-cd ../
-cd assignment1
-./prog5
-./prog05
-./prog06
-./prog07
-
-./prog07
-./prog08
-1
-cd ../assignment2
-ls
-rm prog0?
-ls
-make prog01
-make prog02
-make prog04
-make prog03
-make prog05
-make prog06
-make prog07
-make prog08
-make prog09
-ls
-cc prog06.c -o prog06 -lm
-ls
-clear
-ls
-./prog01
-./prog02
-./prog03
-./prog04
-2
-clear
-ls
-./prog05
-exit
-cd year2
-cd dsa
-cd assignmen1
-cd assignment1
-ls
-cat prog08.c
-cd year2
-cd dsa
-cd assignment1
-cat prog08.c
-ls
-cd year2
-ls
-clear
-ls
-cd year2
-ls
-cd dsa
-ls
-cd assignment2
-ls
-cat assignment.txt
-cd ../
-ls
-cd assignment1
-cat questions.txt
-cd ../
-cd assignment2
-ls
-cat assignment.txt
-./prog01
-./prog05
-clear
-./prog07
-clear
-./prog07
-cd ../
-cd assignment1
-ls
-cat questions.txt
-./prog03
-./prog04
-./prog07
-clear
-ls
-nano prog07.c
-clear
-ls
-clear
-cd year2
-ls
-cd dsa
-ls
-cd assignment2
-ls
-ls -l
-cd ../
-cd assignment1
-ls
-./prog5
-./prog05
-clear
-l
-ls
-cd ../
-./prog07
-cd assignment1
-./prog07
-clear
-ls
-nano prog05
-nano prog05.c
-./prog07
-clear
-cd ../
-cd assignment2
-ls
-clear
-nano prog5.c
-nano prog05.c
-ls
-./prog05
 nano prog05.c
 ls
 mv prog05.c tempprog05.c
@@ -998,3 +777,224 @@ ls
 ls -al
 vim .vimrc
 clear
+clear
+ls
+clear
+ls
+clea
+rclear
+clear
+ls -al
+vim .vimrc
+cd year2
+ls
+clear
+ls 
+cd se
+ls
+cd ../
+cd se
+ls
+clear
+ls
+cd Assignments
+ls
+cd asign1
+ls
+cd assign1
+ls
+clear
+ls
+vim a.c
+ls
+cd ../
+ls
+cd assign2
+os
+ls
+clear
+vim ~/.vimrc
+ls
+clear
+ls
+exa
+clear
+ls
+clear
+ls
+cd ../
+ls
+cd assign2
+ls
+clear
+ls
+gcc -g d.c -o d
+gdb d
+ls
+cat d.c
+gdb d
+ls
+g++ -g d.c -o d
+ls
+info d
+gdb d
+gdb -g d.c -o d
+g++ -g d.c -o d
+gdb d
+fg
+gdb d
+gcc -g d.c -o d
+gdb d
+cd ../
+cd assign
+cd assign1
+ls
+g++ -g a.c -o a
+gdb a
+cd ../
+ls
+cd assign22
+cd assign2
+ls
+clear
+gdb d
+ls
+vim d.c
+fg
+vim d.c 
+ls
+cd ../
+ls
+cd ../
+ls
+vim file.py 
+clear
+ls
+cd Assignments/
+ls
+cd assign4
+ls
+clear
+cd ../
+ls
+vim ../../file.py
+vim ../../../file.py
+cd ../
+ls
+cd oos
+ls
+cd ../
+ls
+cd se
+ls
+cd Assignments/
+ls
+cd assign2
+ls
+cd ../../file.py
+vim ../../file.py
+clear
+ls
+gdb d
+g++ -g d.c d
+g++ -g d.c -o d
+gdb d
+r
+fg
+gdb d
+l
+fg
+gdb d
+fg
+clear
+ls
+vim d.c
+vim ~/.vimrc
+clear
+cd ../
+ls
+cd assign3
+ls
+clear
+vim ~/.vimrc
+clear
+ls
+vim e.c
+vim f.c
+vim ~/.vimrc
+vim file.c
+vim ~/.vimrc
+vim f.c
+vim ~/.vimrc
+vim f.c
+vim ~/.vimrc
+vim f.c
+cd
+git add --all
+git status
+git commit -m "updated vimrc"
+git push
+clear
+exit
+ls
+clear
+git pull
+vim ~/.bashrc
+exit
+ls
+git status
+clear
+ls
+cd year2
+ls
+cd dsa
+ls
+cd assignment1
+ls
+vim prog07.c
+cd ~
+vim ~/.vimrc
+git staus
+git status
+clear
+git pull
+ls cear
+clear
+ls
+locate vimrc
+locate .vimrc
+vim .vimrc
+exit
+ls
+clear
+ls -al
+ls
+clear
+git status
+tmux
+vim ~/.bashrc
+clear
+exit
+touch .gitlog
+vim ~/.bashrc
+git status
+exit
+ls
+clear
+ls
+cat .gitlog
+clear
+vim ~/.bashrc
+exit
+ls
+cat .gitlog
+clear
+exit
+env
+alias
+"vi"
+vim
+vi
+vi temp.ff
+clear
+logout

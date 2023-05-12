@@ -9,3 +9,6 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+git pull  >  ~/.gitlog 2>&1
+
+#clear

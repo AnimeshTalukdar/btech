@@ -1,0 +1,26 @@
+[be21149@localhost oop]$ time ./prog14
+Enter three numbers: 
+1
+2
+3
+
+
+1+2+3=6
+
+real	0m4.322s
+user	0m0.001s
+sys	0m0.002s
+[be21149@localhost oop]$ time ./prog13
+Enter three numbers: 
+1
+2
+3
+
+
+1+2+3=6
+
+real	0m1.726s
+user	0m0.002s
+sys	0m0.001s
+[be21149@localhost oop]$ 
+

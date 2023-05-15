@@ -1,0 +1,141 @@
+1.
+select ename "NAME" , mgr "MANAGER ID", TO_CHAR(hiredate, 'ddspth month,YYYY')
+HIRE_DATE from emp where job ='CLERK' or deptno = 20;
+2.
+select ename as NAME , sal as OLD_SALARY , round(1.25*sal) as NEW_SALARY
+from emp;
+3.
+select rpad(ename,25), lpad(sal,25) from emp;
+4.
+select concat(concat(initcap(ename),'('),concat(initcap(job),')')) as "ROLE OF THE
+EMPLOYEE" from emp;
+5.
+select *
+from emp
+where job ='CLERK';
+6.
+select ename , hiredate as HIRE_DATE, ADD_MONTHS(hiredate,12) as
+SALARY_REVIEW_DATE
+from emp
+order by SALARY_REVIEW_DATE asc;
+7.
+select *
+from emp
+where sal in(
+select max(sal)
+from emp
+group by job)
+order by job desc;
+8.
+select *
+from emp e
+where hiredate in(
+select max(hiredate)
+from emp
+where e.deptno = deptno)
+order by deptno;
+9.
+SELECT D.DNAME, COUNT(E.EMPNO)
+FROM EMP E, DEPT D
+WHERE E.DEPTNO = D.DEPTNO 
+GROUP BY D.DEPTNO, D.DNAME 
+ORDER BY D.DEPTNO;
+10.
+SELECT E.EMPNO, E.ENAME, E.SAL, S.GRADE 
+FROM EMP E, SALGRADE S 
+WHERE E.SAL IN(SELECT MAX(SAL) 
+FROM EMP 
+GROUP BY DEPTNO) AND E.SAL BETWEEN S.LOSAL AND S.HISAL 
+ORDER BY E.DEPTNO;
+11.
+SELECT TO_CHAR(HIREDATE, 'YYYY') AS YEAR, COUNT(EMPNO) AS NUMBER_OF_EMPLOYEE
+FROM EMP
+GROUP BY TO_CHAR(HIREDATE, 'YYYY') 
+HAVING COUNT(EMPNO)=(SELECT MAX(COUNT(EMPNO)) 
+FROM EMP 
+GROUP BY TO_CHAR(HIREDATE, 'YYYY'));
+12.
+SELECT EMPNO, ENAME, JOB, MGR, HIREDATE,
+ SAL, COMM, DEPTNO, PHONENO, ADDRESS 
+ FROM(SELECT EMPNO, ENAME,JOB, MGR, HIREDATE, 
+ SAL, COMM, DEPTNO, PHONENO, ADDRESS, ROWNUM RN 
+ FROM EMP) 
+WHERE MOD(RN,2)=1;
+13.
+SELECT EMPNO,ENAME, SAL+NVL(COMM,0) AS TOTAL_SALARY
+ FROM EMP;
+14.
+SELECT DISTINCT D.DNAME AS DEPARTMENT, 
+E.JOB AS AVAILABLE_JOBS
+FROM EMP E, DEPT D 
+WHERE D.DEPTNO = E.DEPTNO 
+ORDER BY DNAME;
+15.
+SELECT DISTINCT D.DNAME AS DEPARTMENT, 
+E.ENAME
+FROM EMP E, DEPT D 
+WHERE D.DEPTNO = E.DEPTNO;
+CREATE TABLE EMP
+( EMPNO NUMBER(4) NOT NULL,
+ENAME VARCHAR2(10),
+JOB VARCHAR2(9),
+MGR NUMBER(4),
+HIREDATE DATE,
+SAL NUMBER(7,2),
+COMM NUMBER(7,2),
+DEPTNO NUMBER(2),
+PHONENO NUMBER(10),
+ADDRESS VARCHAR2(20));
+ 
+ 
+ 
+ 
+ 
+ 
+INSERT INTO EMP VALUES(7369, 'SMITH', 'CLERK', 7902, '17-DEC-80', 800, NULL , 20,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7499, 'ALLEN', 'SALESMAN', 7698, '20-FEB-81', 1600, 300, 30,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7521, 'WARD', 'SALESMAN', 7698, '22-FEB-81', 1250, 500, 30,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7566, 'JONES', 'MANAGER', 7839, '02-APR-81', 2975, NULL, 20,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7654, 'MARTIN' , 'SALESMAN' , 7698, '28-SEP-81', 1250, 1400 ,30,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7698, 'BLAKE' , 'MANAGER' , 7839, '01-MAY-81', 2850, NULL,30,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7782, 'CLARK', 'MANAGER', 7839, '09-JUN-81', 2450,NULL,10,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES( 7788, 'SCOTT', 'ANALYST', 7566, '19-APR-87', 3000, NULL,20,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES( 7839, 'KING', 'PRESIDENT', null, '17-NOV-81', 5000, NULL, 10,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7844, 'TURNER', 'SALESMAN', 7698, '08-SEP-81', 1500 , 0, 30,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7876, 'ADAMS', 'CLERK', 7788, '23-MAY-87' , 1100 , NULL, 20,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7900, 'JAMES', 'CLERK', 7698, '03-DEC-81', 950,NULL,30,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7902, 'FORD', 'ANALYST', 7566, '03-DEC-81', 3000, NULL, 20,NULL ,NULL );
+ 
+INSERT INTO EMP VALUES(7934, 'MILLER', 'CLERK', 7782, '23-JAN-82', 1300 ,NULL,10, NULL ,NULL );
+create table dept(
+  deptno number(2,0),
+  dname varchar2(14),
+  loc varchar2(13),
+  constraint pk_dept primary key (deptno)
+);
+insert into dept values(10, 'ACCOUNTING', 'NEW YORK');
+insert into dept values(20, 'RESEARCH', 'DALLAS');
+insert into dept values(30, 'SALES', 'CHICAGO');
+insert into dept values(40, 'OPERATIONS', 'BOSTON');
+create table salgrade(
+  grade number,
+  losal number,
+  hisal number
+);
+insert into salgrade values (1, 700, 1200);
+insert into salgrade values (2, 1201, 1400);
+insert into salgrade values (3, 1401, 2000);
+insert into salgrade values (4, 2001, 3000);
+insert into salgrade values (5, 3001, 9999); 

@@ -91,7 +91,7 @@ while(1) {
 		    event = SHOW_DETAIL ;
 	    } else {
 		    printf("Incorrect password!!\n");
-		    event = STOP_LOOPING ;
+		    event = START_LOOPING;
 		    state = START ;
 	    }
             break;

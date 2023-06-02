@@ -35,7 +35,7 @@ public class q21 {
         try {
             t1.join();
         } catch (InterruptedException e) {
-            
+
         }
 
         double sum = 0.0;

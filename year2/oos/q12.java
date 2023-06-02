@@ -46,7 +46,7 @@ class SavingsAccount extends Account{
 class CurrentAccount extends Account{
     CurrentAccount(int acno,String hname,double b){
         super(acno,hname,b);
-        
+
     }
     void print_details(){
         System.out.println("Account Type: " + "Current Account");
@@ -64,6 +64,8 @@ class Manager{
         list_account[index]= new CurrentAccount(acno,hname,b);
         index+=1;
     }
+}
+public class q12{
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         Manager mn = new Manager(); 
@@ -87,13 +89,14 @@ class Manager{
             else{
                 mn.add_current_account(acno,hn,bal);
             }
-            
+
         }
         System.out.println("Printing Details");
         for(int i = 0 ;i< t;i++){
             mn.list_account[i].print_details();
         }
-        
+
     }
+
 
 }

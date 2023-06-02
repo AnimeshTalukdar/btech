@@ -1,95 +1,3 @@
-interface Shape {
-    double area();
-    void draw();
-    void rotate();
-    void move(Position newPosition);
-}
-
-class Circle implements Shape {
-     double radius;
-     Position position;
-
-    public Circle(double radius, Position position) {
-        this.radius = radius;
-        this.position = position;
-    }
-
-    public double getRadius() {
-        return radius;
-    }
-
-    public double area() {
-        return 3.14159 * radius * radius;
-    }
-
-    public void draw() {
-        System.out.println("Drawing a circle at position (" + position.getX() + ", " + position.getY() + ")");
-    }
-
-    public void rotate() {
-        System.out.println("Rotating a circle at position (" + position.getX() + ", " + position.getY() + ")");
-    }
-
-    public void move(Position newPosition) {
-        System.out.println("Moving a circle from position (" + position.getX() + ", " + position.getY() + ") to position (" + newPosition.getX() + ", " + newPosition.getY() + ")");
-        position = newPosition;
-    }
-}
-
-class Rectangle implements Shape {
-     double length;
-     double width;
-     Position position;
-
-    public Rectangle(double length, double width, Position position) {
-        this.length = length;
-        this.width = width;
-        this.position = position;
-    }
-
-    public double getLength() {
-        return length;
-    }
-
-    public double getWidth() {
-        return width;
-    }
-
-    public double area() {
-        return length * width;
-    }
-
-    public void draw() {
-        System.out.println("Drawing a rectangle at position (" + position.getX() + ", " + position.getY() + ")");
-    }
-
-    public void rotate() {
-        System.out.println("Rotating a rectangle at position (" + position.getX() + ", " + position.getY() + ")");
-    }
-
-    public void move(Position newPosition) {
-        System.out.println("Moving a rectangle from position (" + position.getX() + ", " + position.getY() + ") to position (" + newPosition.getX() + ", " + newPosition.getY() + ")");
-        position = newPosition;
-    }
-}
-
-class Position {
-     double x;
-     double y;
-
-    public Position(double x, double y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    public double getX() {
-        return x;
-    }
-
-    public double getY() {
-        return y;
-    }
-}
 
 public class q15 {
     public static void main(String[] args) {
@@ -152,3 +60,97 @@ public class q15 {
     }
 }
 
+
+interface Shape {
+    double area();
+    void draw();
+    void rotate();
+    void move(Position newPosition);
+}
+
+class Circle implements Shape {
+     double radius;
+     Position position;
+
+    public Circle(double radius, Position position) {
+        this.radius = radius;
+        this.position = position;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public double area() {
+        return 3.14 * radius * radius;
+    }
+
+    public void draw() {
+        System.out.println("Drawing a circle at position (" + position.getX() + ", " + position.getY() + ")");
+    }
+
+    public void rotate() {
+        System.out.println("Rotating a circle at position (" + position.getX() + ", " + position.getY() + ")");
+    }
+
+    public void move(Position newPosition) {
+        System.out.println("Moving a circle from position (" + position.getX() + ", " + position.getY() + ") to position (" + newPosition.getX() + ", " + newPosition.getY() + ")");
+        position = newPosition;
+    }
+}
+
+class Rectangle implements Shape {
+     double length;
+     double width;
+     Position position;
+
+    public Rectangle(double length, double width, Position position) {
+        this.length = length;
+        this.width = width;
+        this.position = position;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double area() {
+        return length * width;
+    }
+
+    public void draw() {
+        System.out.println("Drawing a rectangle at position (" + position.getX() + ", " + position.getY() + ")");
+    }
+
+    public void rotate() {
+        System.out.println("Rotating a rectangle at position (" + position.getX() + ", " + position.getY() + ")");
+    }
+
+    public void move(Position newPosition) {
+        System.out.println("Moving a rectangle from position (" + position.getX() + ", " + position.getY() + ") to position (" + newPosition.getX() + ", " + newPosition.getY() + ")");
+        position = newPosition;
+    }
+}
+
+
+class Position {
+     double x;
+     double y;
+
+    public Position(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
+}

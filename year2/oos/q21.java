@@ -1,49 +1,51 @@
-class DenominatorGenerator implements Runnable {
-    double[] denominators;
-
-    DenominatorGenerator(double[] denominators) {
-        this.denominators = denominators;
-    }
-
-    public void run() {
-        for (int i = 0; i < denominators.length; i++) {
-            denominators[i] = 1.0 / factorial(i);
-        }
-    }
-
-    int factorial(int n) {
-        if (n <= 1) {
-            return 1;
-        }
-        int fact = 1;
-        for (int i = 2; i <= n; i++) {
-            fact *= i;
-        }
-        return fact;
-    }
-}
-
 public class q21 {
     public static void main(String[] args) {
-        int NUM_TERMS = 5; 
+        int numTerms = 5;
 
-        double[] denominators = new double[NUM_TERMS];
+        double[] fractions = new double[numTerms];
 
-        Thread t1 = new Thread(new DenominatorGenerator(denominators));
-        t1.start();
+        Thread thread = new Thread(new FractionGenerator(fractions));
+        thread.start();
 
         try {
-            t1.join();
+            thread.join();
         } catch (InterruptedException e) {
 
         }
 
         double sum = 0.0;
-        for (double denominator : denominators) {
-            sum += denominator;
+        for (double fraction : fractions) {
+            sum += fraction;
         }
 
         System.out.println("Sum of the series: " + sum);
+    }
+}
+
+
+
+class FractionGenerator implements Runnable {
+    double[] fractions;
+
+    FractionGenerator(double[] fractions) {
+        this.fractions = fractions;
+    }
+
+    public void run() {
+        for (int i = 0; i < fractions.length; i++) {
+            fractions[i] = 1.0 / calculateFactorial(i);
+        }
+    }
+
+    int calculateFactorial(int n) {
+        if (n <= 1) {
+            return 1;
+        }
+        int factorial = 1;
+        for (int i = 2; i <= n; i++) {
+            factorial *= i;
+        }
+        return factorial;
     }
 }
 

@@ -54,7 +54,7 @@ int main()
 
     memset(&receiverAddr, 0, sizeof(receiverAddr));
     receiverAddr.sin_family = AF_INET;
-    receiverAddr.sin_addr.s_addr = inet_addr("192.168.0.240");
+    receiverAddr.sin_addr.s_addr = inet_addr("127.0.0.1");
     receiverAddr.sin_port = htons(54321);
 
     bind(sockfd, (struct sockaddr *)&senderAddr, sizeof(senderAddr));

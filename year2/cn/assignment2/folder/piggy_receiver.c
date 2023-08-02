@@ -66,7 +66,7 @@ int main()
 
     memset(&senderAddr, 0, sizeof(senderAddr));
     senderAddr.sin_family = AF_INET;
-    senderAddr.sin_addr.s_addr = inet_addr("192.168.0.240");
+    senderAddr.sin_addr.s_addr = inet_addr("127.0.0.1");
     senderAddr.sin_port = htons(12345);
 
     memset(&receiverAddr, 0, sizeof(receiverAddr));

@@ -17,9 +17,10 @@ void fun(int idx,int n,int state,int* state_changes,int* arr){
 int main(){
     int n; 
     printf("Enter the length");
-    int* arr = (int*) malloc(sizeof(int)*n);
     scanf("%d",&n);
     int i =0;
+    int* arr = (int*) malloc(sizeof(int)*n);
+
     for (i =0;i<n;i++){
         scanf("%d",&arr[i]);
     }

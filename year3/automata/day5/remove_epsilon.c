@@ -51,7 +51,7 @@ int main(){
     for(i=0;i<n;i++){
         printf("q%d\t",i);
         for(j=0;j<m;j++){
-            if(nfa[i][j]==0) printf("shi\t");
+            if(nfa[i][j]==0) printf("--\t");
             else printf("%s\t",state(nfa[i][j]));
         }
         printf("\n");
@@ -74,7 +74,7 @@ int main(){
     for(i=0;i<n;i++){
         printf("q%d\t",i);
         for(j=0;j<2;j++){
-            if(nfa[i][j]==0) printf("shi\t");
+            if(nfa[i][j]==0) printf("--\t");
             else printf("%s\t",state(nfa[i][j]));
         }
         printf("\n");
